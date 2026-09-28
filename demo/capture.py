@@ -20,7 +20,7 @@ output = render_fragment(source)
 assert '<script>' not in output and '<strong>' in output
 snapshot = {
     'captured_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
-    'kind': 'Executed composition example; animation is an edited explanation, not a live agent recording.',
+    'kind': 'Executed composition example; animation is an authored terminal conversation, not a live agent recording.',
     'source': source,
     'output': output,
     'tests': run.stderr.strip(),

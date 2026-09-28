@@ -1,0 +1,211 @@
+{
+  "format": "Authored terminal conversation. Dialogue is abridged and translated from the captured evaluation; not a literal client transcript or live recording.",
+  "project": "Noted is a fictional notes-app wrapper around the repository's real Markdown preview example.",
+  "sources": {
+    "research": "evals/evidence/markdown-search.json",
+    "recommendation": "evals/MENU_EXAMPLE.es.md",
+    "integration": "examples/markdown_preview/preview.py",
+    "tests": "demo/evidence.json",
+    "attribution": "examples/markdown_preview/OPEN_SOURCE_CREDITS.md"
+  },
+  "rows": [
+    {
+      "at": 0,
+      "text": "> I'm building an offline notes app in Python.",
+      "kind": "user"
+    },
+    {
+      "at": 0,
+      "text": "  Next: Markdown preview with basic HTML.",
+      "kind": "user"
+    },
+    {
+      "at": 0,
+      "text": "  Keep formatting. Filter scripts and unsafe links.",
+      "kind": "user"
+    },
+    {
+      "at": 0.8,
+      "text": "  README.md \u00b7 project context available",
+      "tone": "dim",
+      "gap": 16,
+      "size": 19
+    },
+    {
+      "at": 7.2,
+      "text": "> /jumpstart",
+      "kind": "user",
+      "tone": "accent",
+      "gap": 26,
+      "bold": true
+    },
+    {
+      "at": 7.8,
+      "text": "\u25cf I'll inspect the code behind the candidates, then recommend a route.",
+      "type": 0.9,
+      "gap": 20
+    },
+    {
+      "at": 9,
+      "text": "  \u2713 Read context \u00b7 Python, offline, basic HTML",
+      "tone": "muted",
+      "type": 0.35
+    },
+    {
+      "at": 9.8,
+      "text": "  \u2713 gh search repos \u00b7 Markdown parsers + HTML sanitizers",
+      "tone": "muted",
+      "type": 0.4
+    },
+    {
+      "at": 10.6,
+      "text": "  \u2713 Inspect source, dependencies, tests and licenses",
+      "tone": "muted",
+      "type": 0.4
+    },
+    {
+      "at": 11.3,
+      "text": "    executablebooks/markdown-it-py \u00b7 messense/nh3 \u00b7 lepture/mistune",
+      "tone": "dim",
+      "size": 20,
+      "type": 0.5
+    },
+    {
+      "at": 12.5,
+      "text": "\u25cf I'd combine two focused pieces.",
+      "type": 0.6,
+      "gap": 25
+    },
+    {
+      "at": 13.3,
+      "text": "  A  markdown-it-py + nh3   \u2190 recommended",
+      "tone": "accent",
+      "bold": true,
+      "type": 0.55,
+      "gap": 12
+    },
+    {
+      "at": 14,
+      "text": "     Markdown \u2192 HTML \u2192 explicit HTML filtering",
+      "type": 0.55
+    },
+    {
+      "at": 14.7,
+      "text": "  B  Mistune + nh3          \u00b7 alternative inspected",
+      "tone": "muted",
+      "type": 0.55,
+      "gap": 10
+    },
+    {
+      "at": 15.4,
+      "text": "     Another parser behind the same product interface.",
+      "tone": "muted",
+      "type": 0.55
+    },
+    {
+      "at": 16.3,
+      "text": "  KEEP      The parser and sanitizer's public APIs.",
+      "type": 0.6,
+      "gap": 15
+    },
+    {
+      "at": 17.1,
+      "text": "  SIMPLIFY  No web framework, database or extra plugins.",
+      "type": 0.6
+    },
+    {
+      "at": 17.9,
+      "text": "  WRITE     Your HTML policy and a small preview adapter.",
+      "type": 0.6
+    },
+    {
+      "at": 18.8,
+      "text": "  AVOID     Building Markdown rules and an HTML filter from scratch.",
+      "tone": "green",
+      "type": 0.7,
+      "gap": 14
+    },
+    {
+      "at": 19.8,
+      "text": "  PLAN      Pin \u2192 connect \u2192 test the boundary \u2192 preserve credits.",
+      "type": 0.7
+    },
+    {
+      "at": 20.8,
+      "text": "  Inspected, not yet integrated. I'd start with A.",
+      "tone": "muted",
+      "type": 0.6,
+      "gap": 14
+    },
+    {
+      "at": 27,
+      "text": "> Integrate A. Keep it small. Test it and credit the authors.",
+      "kind": "user",
+      "gap": 28
+    },
+    {
+      "at": 27.6,
+      "text": "\u25cf Connected the pieces through one product adapter.",
+      "type": 0.65,
+      "gap": 20
+    },
+    {
+      "at": 28.5,
+      "text": "  preview.py              parse \u2192 filter \u2192 HTML fragment",
+      "type": 0.5
+    },
+    {
+      "at": 29.2,
+      "text": "  requirements.txt        markdown-it-py {parser} \u00b7 nh3 {sanitizer}",
+      "type": 0.5
+    },
+    {
+      "at": 29.9,
+      "text": "  OPEN_SOURCE_CREDITS.md   sources, versions and license notices",
+      "type": 0.5
+    },
+    {
+      "at": 30.8,
+      "text": "  $ python -m unittest -q test_preview.py",
+      "tone": "muted",
+      "type": 0.45,
+      "gap": 18
+    },
+    {
+      "at": 31.5,
+      "text": "{test_result}",
+      "tone": "muted"
+    },
+    {
+      "at": 31.8,
+      "text": "  OK \u00b7 7 / 7 integration tests passed",
+      "tone": "green",
+      "bold": true
+    },
+    {
+      "at": 32.7,
+      "text": "  \u2713 Markdown and allowed HTML preserved",
+      "tone": "green",
+      "type": 0.4,
+      "gap": 14
+    },
+    {
+      "at": 33.3,
+      "text": "  \u2713 Scripts and unsafe links filtered",
+      "tone": "green",
+      "type": 0.4
+    },
+    {
+      "at": 33.9,
+      "text": "  \u2713 Upstream versions pinned and licenses preserved",
+      "tone": "green",
+      "type": 0.4
+    },
+    {
+      "at": 34.7,
+      "text": "  Your preview layer is ready to connect to the notes UI.",
+      "type": 0.6,
+      "gap": 15
+    }
+  ]
+}

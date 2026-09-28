@@ -4,7 +4,7 @@
 
 Give your coding agent a workflow to find, inspect, combine, integrate, and credit open-source code worth building on.
 
-![Jumpstart: from a product brief to a recommended combination and a tested, credited integration](assets/jumpstart.gif)
+![Terminal demo: type /jumpstart, compare open-source foundations, then integrate and test the selected pieces](assets/jumpstart.gif)
 
 [Install](#install) · [See the example](#a-real-combination) · [MCP setup](mcp_server/README.md) · [Español](USO.es.md) · [MIT](LICENSE)
 
@@ -72,11 +72,11 @@ The [included Markdown previewer](examples/markdown_preview/README.md) combines 
 
 ![An abridged recommendation: markdown-it-py plus nh3, with Mistune plus nh3 as an inspected alternative](assets/jumpstart-menu.png)
 
-![The executed composition example: seven passing integration tests, rendered output, and upstream credits](assets/jumpstart-result.png)
+![The terminal demo concludes with the real adapter, seven passing integration tests and preserved upstream credits](assets/jumpstart-result.png)
 
 **Seven integration tests pass.** The [provenance report](examples/markdown_preview/OPEN_SOURCE_CREDITS.md) records the selected versions and preserved notices. This example demonstrates composition through public APIs; it does not claim extraction of tightly coupled internals from large applications.
 
-The images and [24-second video](assets/jumpstart.mp4) are an edited walkthrough of that example, not a live recording of an agent. The [demo source and captured evidence](demo/README.md) are included.
+The [40-second terminal demo](assets/jumpstart.mp4) shows the flow: project context → `/jumpstart` → recommendation → integration. It reconstructs the conversation around this tested example; layout, dialogue and timing are edited. The [demo source and captured evidence](demo/README.md) are included.
 
 ## What runs where?
 
