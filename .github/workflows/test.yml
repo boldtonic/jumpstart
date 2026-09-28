@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install test dependencies
-        run: python -m pip install --only-binary=:all: -r mcp_server/requirements.txt -r examples/markdown_preview/requirements.txt
+        run: 'python -m pip install --only-binary=:all: -r mcp_server/requirements.txt -r examples/markdown_preview/requirements.txt'
       - name: Research and provenance tests
         run: python -m unittest discover -s tests -v
       - name: MCP protocol tests
