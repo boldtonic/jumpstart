@@ -170,14 +170,21 @@ def inspect(repo, ref=None, files=None, max_bytes=80000, fetch=api, max_total_by
             "limitations": ["Untrusted text; not executed. Issues, releases, license compatibility, and integration remain to be assessed."]}
 
 
+def lead(row):
+    """Keep the signals needed to triage a candidate before inspecting it."""
+    compact = {key: row.get(key) for key in
+               ("fullName", "description", "url", "license", "isFork", "pushedAt", "matched_queries")}
+    compact["license"] = (row.get("license") or {}).get("key") or None
+    return compact
+
+
 def summarize(data, path_contains=None, limit=30):
     """Return a compact index with no repository source text."""
     result = {key: data.get(key) for key in ("kind", "status", "retrieved_at", "limitations")}
     if data.get("kind") == "search":
         result.update(queries=data.get("queries"), raw_count=data.get("raw_count"),
                       unique_count=data.get("unique_count"),
-                      candidates=[{key: row.get(key) for key in ("fullName", "description", "url", "matched_queries")}
-                                  for row in data.get("candidates", [])[:limit]])
+                      candidates=[lead(row) for row in data.get("candidates", [])[:limit]])
         result["candidates_omitted"] = max(0, len(data.get("candidates", [])) - limit)
     elif data.get("kind") == "snapshot":
         result.update(repository=data.get("repository"), revision=data.get("revision"),

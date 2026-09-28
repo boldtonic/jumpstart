@@ -13,7 +13,7 @@ Invoking this skill does not replace the user's request. If the user asks to exp
 
 For product research, identify the target product or feature from the explicit request and relevant conversation. The workspace helps establish context, but this skill's source, installation, or demo folder is not automatically the target. When the user invokes Jumpstart without a request and no product can be identified, briefly explain that you will research foundations and return a menu, then ask one question: what product or feature are we working on? Wait for that essential answer before searching. When the target is already clear, proceed without repeating the question.
 
-Follow the host's native invocation and tool conventions. This workflow is shared across Agent Skills clients; it does not depend on a particular chat UI, slash syntax, provider, or model. If using the companion MCP server, obtain references through its guide tool/resource and use its research tools when local shell access is unavailable. Coding and testing require suitable host tools; report a plan rather than claiming implementation when the host cannot edit or execute the target project.
+Follow the host's native invocation and tool conventions. This workflow is shared across Agent Skills clients; it does not depend on a particular chat UI, slash syntax, provider, or model. If using the companion MCP server, obtain references through its guide tool/resource and use its research tools when local shell access or its network is unavailable. Coding and testing require suitable host tools; report a plan rather than claiming implementation when the host cannot edit or execute the target project.
 
 ## Start from the user's context
 

@@ -53,7 +53,7 @@ Clients with prompt selection can use the `jumpstart` prompt, with optional `pro
 | Interface | Purpose |
 |---|---|
 | `jumpstart_guide(section)` | Shared instructions: `start`, `research`, `menu`, `integration` |
-| `jumpstart_search(queries, limit)` | 1–6 public GitHub queries, up to 20 results each; deduplicated leads |
+| `jumpstart_search(queries, limit)` | 1–6 public GitHub queries, up to 20 results each; deduplicated leads with license, fork status, and last push |
 | `jumpstart_inspect(repository, ref, files)` | Commit-pinned metadata/tree/docs and up to 8 requested source files |
 | `jumpstart_evidence` | Cached index or bounded source excerpts; exact upstream paths only |
 | Prompt `jumpstart` | Shared workflow plus optional project brief |

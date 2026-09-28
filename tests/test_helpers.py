@@ -94,6 +94,18 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(result["matching_paths"], ["test_a"])
         self.assertEqual(result["paths_omitted"], 1)
 
+    def test_search_summary_keeps_license_fork_and_activity(self):
+        data = {"kind": "search", "candidates": [
+            {"fullName": "org/licensed", "license": {"key": "mit", "name": "MIT License", "url": ""},
+             "isFork": False, "pushedAt": "2026-08-21T04:48:29Z"},
+            {"fullName": "org/unlicensed", "license": {"key": "", "name": "", "url": ""},
+             "isFork": True, "pushedAt": "2020-01-01T00:00:00Z"},
+            {"fullName": "org/sparse"}]}
+        rows = research.summarize(data)["candidates"]
+        self.assertEqual([(r["license"], r["isFork"], r["pushedAt"]) for r in rows],
+                         [("mit", False, "2026-08-21T04:48:29Z"), (None, True, "2020-01-01T00:00:00Z"),
+                          (None, None, None)])
+
     def test_total_source_budget_stops_additional_blob_reads(self):
         calls = []
         def fetch(endpoint):

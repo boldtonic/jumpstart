@@ -8,6 +8,8 @@ Start by reading 3–5 relevant files per finalist; keep the combined source ins
 
 Search families: the entire product category; its difficult capability; established technical terminology; an input/output pair; adjacent implementations. Keep libraries, applications, templates, research demos, and catalogs labeled; they serve different roles. Read catalogs as discovery sources, not as working components.
 
+For libraries, also search the ecosystem's package registry (npm, PyPI, crates.io, Maven Central, pkg.go.dev, or equivalent); these queries count toward the same budget. Registries find packages whose repository names and descriptions miss your terms. Downloads and dependents are adoption leads, not quality proof. Some registries have no search CLI or API (PyPI's `pip search` is disabled); use their website through an available web tool and label that coverage. A package's repository link is self-declared: confirm it points to the source you inspect, then pin the commit matching the version you would install.
+
 ```sh
 gh search repos 'epub parser in:name,description' --visibility=public --archived=false --limit 15 --json fullName,description,url,license,pushedAt,stargazersCount
 ```
@@ -32,7 +34,7 @@ python3 scripts/github_research.py summarize /tmp/candidate.json --path-contains
 
 The summary omits all source contents and reports omitted entries. Read selected source fields or line ranges only when they answer a specific question.
 
-If `gh` fails, distinguish missing executable, timeout, authentication, network failure, and rate limits from zero matches. Use an available connector/web fallback and label its coverage. Do not print tokens, read credential stores, or change authentication automatically. Sandbox network failures can make `gh auth status` misleading.
+If `gh` fails, distinguish missing executable, timeout, authentication, network failure, and rate limits from zero matches. Host sandboxes often block network access for shell commands while MCP servers run outside them: after `network_unavailable`, continue with Jumpstart's MCP tools (`jumpstart_search`, `jumpstart_inspect`, `jumpstart_evidence`) when available, or retry with the host's network approval if it offers one. Use a web or connector fallback only after that, and label its coverage. Web pages can be cached; confirm activity claims such as the latest commit through the API or a pinned snapshot, or mark them unverified. Do not print tokens, read credential stores, or change authentication automatically. Sandbox network failures can make `gh auth status` misleading.
 
 ## Source snapshots
 

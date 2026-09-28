@@ -13,7 +13,7 @@ Useful comparison dimensions:
 | Route | Sources and responsibilities | Improvement / work avoided | Integration and ongoing effort | Evidence / unresolved check |
 |---|---|---|---|---|
 
-Populate from research, not generic claims. Link exact files or APIs at inspected revisions when they support the recommendation. Separate proposed combinations from combinations already tested together.
+Populate from research, not generic claims. Link exact files or APIs at inspected revisions when they support the recommendation. Separate proposed combinations from combinations already tested together. If discovery failed or used a fallback, say so in one line of the menu itself, not only in the decision record.
 
 For the recommended route, explain:
 
