@@ -1,91 +1,93 @@
-# Jumpstart
+# Jumpstart ↗
 
-**Jump-start your project with open source. Find the foundations, keep what matters, make it yours, and credit the creators.**
+**Open-source foundations. Your product.**
 
-Jumpstart helps your AI coding agent act as a technical partner: understand the product, investigate existing implementations, recommend combinations, and selectively simplify, integrate, test, and attribute the chosen pieces. A solution can reuse a foundation, selected modules, or complementary parts of several repositories alongside original code.
+Give your coding agent a workflow to find, inspect, combine, integrate, and credit open-source code worth building on.
 
-It ships as a portable **Agent Skill**, plus a companion **MCP server** for clients that use MCP. Both load the same workflow. You use it inside the conversation where you are building your product.
+![Jumpstart: from a product brief to a recommended combination and a tested, credited integration](assets/jumpstart.gif)
 
-[Cómo instalarla y usarla, en español](USO.es.md)
+[Install](#install) · [See the example](#a-real-combination) · [MCP setup](mcp_server/README.md) · [Español](USO.es.md) · [MIT](LICENSE)
 
-## Install the skill
+You describe what you are building. Jumpstart reads the available context and code, investigates existing implementations, and returns a small menu of foundations and combinations. Choose a route—or delegate the choice—and your agent helps turn the selected pieces into your product.
 
-From this repository, using the [Skills CLI](https://github.com/vercel-labs/skills) (Node.js 22.20+):
+Use a whole foundation, selected modules, or complementary parts of several repos. Keep what fits, simplify what does not, write the connections, and credit the people whose work you build on.
+
+## What you get
+
+- **A recommendation with reasons.** What each repo contributes, what to keep or remove, and how the pieces fit.
+- **Implementation evidence.** Relevant code and boundaries inspected, with documented, inspected, and tested results distinguished.
+- **An integration plan.** Concrete engineering work you can avoid, the code still needed, and the order to build it.
+- **A working integration when you ask for it.** Selected pieces, meaningful tests, pinned sources, and preserved credits.
+
+Jumpstart works inside your existing agent. It ships as a portable **Agent Skill** and a companion **MCP server**, sharing the same workflow.
+
+## Install
+
+From a downloaded or cloned copy of this repository:
 
 ```sh
-npx skills@1.7.0 add . --skill jumpstart --agent codex claude-code cursor --global
+npx skills@1.7.0 add . --skill jumpstart --global
 ```
 
-Choose the agents you actually use. `--global` makes the skill available across your projects. Omit it to install into the current working project. `--copy` installs copies instead of links. The CLI handles each agent's discovery directory; it is an external installer, not a Jumpstart dependency.
+The installer lets you choose your agents. It requires Node.js 22.20+. You can also install manually using [the skill ZIP](dist/jumpstart-skill.zip): place the complete `jumpstart` folder in your client's skills directory. For personal Claude Code skills, that is `~/.claude/skills/jumpstart`.
 
-Alternatively, copy the complete `skills/jumpstart` directory into your client's skills directory. For a personal Claude Code installation, that is `~/.claude/skills/jumpstart`. For other clients, follow their discovery rules. `dist/jumpstart-skill.zip` contains that same standalone directory; the optional `agents/openai.yaml` metadata does not change the shared workflow.
+The public repository install command will be added when the repository is published. The source and ZIP are currently prepared locally.
 
-This repository is currently local. A public GitHub install URL will be added after publication; there is no published Jumpstart npm or Python package.
+| Your environment | Start here |
+|---|---|
+| Claude Code | `/jumpstart` followed by your request |
+| Codex | `$jumpstart` followed by your request |
+| Other Agent Skills clients | Install the same skill using the client's discovery mechanism |
+| MCP clients | [Connect Jumpstart](mcp_server/README.md), then ask the agent to use it |
 
-## Invoke it in your product
+Open a new session if your agent has not refreshed its skill list. The [compatibility record](evals/PORTABILITY.es.md) states what has actually been tested.
 
-| Client | How you start | What is provided |
+## Try it in your project
+
+In Claude Code:
+
+```text
+/jumpstart Read this project's context and code. Find open-source pieces
+we could combine. Recommend what to keep, simplify, and integrate.
+```
+
+In Codex, use `$jumpstart` with the same request. If you are starting from an idea, describe the product instead. Jumpstart uses the context it can access and asks only for missing information that changes the recommendation.
+
+Then, for example:
+
+```text
+Integrate option A. Keep our current UI, use the selected components,
+verify the complete flow, and preserve upstream credits.
+```
+
+## A real combination
+
+The [included Markdown previewer](examples/markdown_preview/README.md) combines two independent projects:
+
+| Source | What we reuse | What our product owns |
 |---|---|---|
-| Claude Code | `/jumpstart` followed by your request | Native skill; personal or project installation |
-| Codex | `$jumpstart` followed by your request | Native skill; personal or project installation |
-| Other Agent Skills clients | Their native skill command or discovery mechanism | The same `SKILL.md`, references, and optional helpers |
-| MCP clients | Connect the server, then ask the agent to use Jumpstart | A `jumpstart` prompt, guide resources, and research tools |
+| [markdown-it-py](https://github.com/executablebooks/markdown-it-py) | Markdown parsing and rendering | Supported content and parser configuration |
+| [nh3](https://github.com/messense/nh3) | HTML sanitization | Allowed elements, attributes, and URL policy |
+| Original adapter | The connection between them | File input/output, limits, and integration tests |
 
-For example, in Claude Code:
+![An abridged recommendation: markdown-it-py plus nh3, with Mistune plus nh3 as an inspected alternative](assets/jumpstart-menu.png)
 
-```text
-/jumpstart Read this project's context and code. Recommend open-source pieces we could combine, what to retain or simplify, and how to integrate them.
-```
+![The executed composition example: seven passing integration tests, rendered output, and upstream credits](assets/jumpstart-result.png)
 
-In Codex, use `$jumpstart` with the same request. These are messages to your agent, not shell commands. The wording after the skill name is up to you. If the product is already clear from the conversation, a short invocation is enough; otherwise Jumpstart asks what you are building.
+**Seven integration tests pass.** The [provenance report](examples/markdown_preview/OPEN_SOURCE_CREDITS.md) records the selected versions and preserved notices. This example demonstrates composition through public APIs; it does not claim extraction of tightly coupled internals from large applications.
 
-The skill description also supports automatic discovery by hosts that implement it. Discovery and invocation belong to the client: installing in one application does not automatically install in every other AI application.
+The images and [24-second video](assets/jumpstart.mp4) are an edited walkthrough of that example, not a live recording of an agent. The [demo source and captured evidence](demo/README.md) are included.
 
-You receive a short menu: a recommended route, alternatives or combinations, the role of each repository, what to keep or remove, the engineering work avoided, and an integration plan. Then you can say:
+## What runs where?
 
-```text
-Integrate option A. Keep our current UI, combine the selected components, simplify unnecessary layers, and verify the complete user flow. Preserve upstream credits.
-```
+Your agent supplies the model, project context, and coding tools. The skill's optional research helper uses **GitHub CLI (`gh`) and Python 3.9+**. The MCP server additionally needs Python 3.10+ and its pinned SDK dependency. Neither helper nor MCP server requires another model API key.
 
-You can delegate the choice and implementation in your initial request too. Jumpstart uses the context and project tools available in that conversation; it does not automatically read unrelated chats.
+MCP supports local stdio and loopback HTTP. Clients that only connect to remote servers need a hosted deployment; this project does not currently provide one. Research-only clients can produce a menu and plan, while integration requires the host's code editing and execution tools.
 
-After installation, open a fresh session in your agent if it has not refreshed its skill list. In Claude Code, `/jumpstart` should be available as a native skill command.
+## Development and credits
 
-## MCP access
+[Development guide](docs/DEVELOPMENT.md) · [Validation results](evals/RESULTS.md) · [Behavioral cases](evals/CASES.md) · [Design sources](DESIGN_SOURCES.md)
 
-The [companion server](mcp_server/README.md) exposes the shared workflow to MCP clients, including clients without native skills. It supports local stdio and loopback Streamable HTTP. The client supplies the model, conversation context, and any project editing tools. The server supplies instructions and bounded GitHub research through the official `gh` CLI; it makes no model API calls.
+Original code is [MIT-licensed](LICENSE). Reused material keeps its [upstream notices](THIRD_PARTY_NOTICES.md). Jumpstart records attribution as part of integration, not as an afterthought.
 
-A client that has no code editing or execution tools can still receive research and a plan. A web-only client that requires a remote HTTPS server needs a separately hosted deployment; this repository does not provide a hosted service. A MCP prompt is not guaranteed to appear as `/jumpstart` in every client.
-
-## Evidence and integration
-
-Jumpstart distinguishes documented claims, inspected implementations, and tested integrations. Avoided technical debt is described through concrete engineering work avoided; hours, token savings, and percentages are not invented.
-
-Selected source revisions and source-to-target mappings are recorded, with preserved licenses and notices. The [provenance helper](skills/jumpstart/references/integration.md) validates recorded structure and files; it does not certify licensing conclusions.
-
-The [Markdown preview example](examples/markdown_preview/README.md) combines a Markdown parser and an HTML sanitizer behind an original adapter. It has pinned dependencies, seven integration tests, upstream notices, and a provenance report. These packages are demo dependencies, not skill dependencies.
-
-## Development
-
-The skill's optional helpers require Python 3.9+. GitHub research requires an installed, authenticated `gh` CLI with network access. The MCP server additionally requires Python 3.10+ and the official MCP Python SDK; see its setup guide.
-
-```sh
-python3 -m unittest discover -s tests -v
-```
-
-Research helpers can also be used independently:
-
-```sh
-python3 skills/jumpstart/scripts/github_research.py search \
-  --query 'epub parser in:name,description' --limit 10 --out /tmp/epub-search.json
-```
-
-Research artifacts are never silently overwritten. Search and snapshot exit codes: `0` complete, `2` partial/failed queries with an evidence artifact, `1` fatal error. Downloaded source is inspected as text, never executed by the research helper or MCP server.
-
-Edit the core in `skills/jumpstart`; the MCP server reads those files directly. If you installed copies, refresh them after changes. The skill ZIP contains only the skill; the MCP ZIP includes the server and its shared skill files.
-
-Automated checks are configured in `.github/workflows/test.yml` for pushes and pull requests.
-
-See [validation results](evals/RESULTS.md), [portability checks](evals/PORTABILITY.es.md), [behavioral cases](evals/CASES.md), and an [example CTO menu](evals/MENU_EXAMPLE.es.md). Installation discovery and protocol checks do not imply that every host/model has passed an end-to-end product integration.
-
-Original code is [MIT-licensed](LICENSE). See [design influences](DESIGN_SOURCES.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+Built by [@boldtonic](https://github.com/boldtonic). If Jumpstart helps you build something, share your example—and consider leaving a star.

@@ -1,0 +1,11 @@
+{
+  "name": "jumpstart-demo-renderer",
+  "private": true,
+  "scripts": {
+    "render": "node render.cjs",
+    "stills": "node render.cjs --stills"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}

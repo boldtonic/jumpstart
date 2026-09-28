@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-09-28T18:27:30.265175+00:00",
+  "kind": "Executed composition example; animation is an edited explanation, not a live agent recording.",
+  "source": "# A head start\n\n**Built from open source.**\n\n- Markdown parsing\n- Explicit HTML policy\n\n<script>alert(\"unsafe\")</script>\n",
+  "output": "<h1>A head start</h1>\n<p><strong>Built from open source.</strong></p>\n<ul>\n<li>Markdown parsing</li>\n<li>Explicit HTML policy</li>\n</ul>\n\n",
+  "tests": "----------------------------------------------------------------------\nRan 7 tests in 0.137s\n\nOK",
+  "test_exit_code": 0,
+  "packages": {
+    "markdown-it-py": "4.2.0",
+    "nh3": "0.3.7",
+    "mdurl": "0.1.2"
+  },
+  "adapter_sha256": "0718f417a68cfff0c1349bb07e39217f2b7a71aae5e90d0f38201a686cab9a5a",
+  "recommendation_source": "evals/MENU_EXAMPLE.es.md",
+  "provenance_source": "examples/markdown_preview/provenance.json"
+}
