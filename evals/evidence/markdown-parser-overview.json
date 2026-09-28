@@ -1,0 +1,1296 @@
+{
+  "schema_version": 1,
+  "kind": "snapshot",
+  "retrieved_at": "2026-09-25T16:08:12.609501+00:00",
+  "status": "ok",
+  "repository": "executablebooks/markdown-it-py",
+  "requested_ref": "master",
+  "revision": "6f586542653a56d2ee8549a0dccfaa6ba5ebe14a",
+  "commit_date": "2026-09-17T11:35:53Z",
+  "metadata": {
+    "html_url": "https://github.com/executablebooks/markdown-it-py",
+    "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-21T16:41:34Z",
+    "stargazers_count": 1368
+  },
+  "tree_truncated": false,
+  "tree": [
+    {
+      "path": ".github",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1669
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 232
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/enhancement.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1152
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1176
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3714
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1939
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 868
+    },
+    {
+      "path": ".readthedocs.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 309
+    },
+    {
+      "path": "AGENTS.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 14442
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 20358
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1078
+    },
+    {
+      "path": "LICENSE.markdown-it",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1073
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5024
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 582
+    },
+    {
+      "path": "benchmarking",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "benchmarking/bench_core.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 375
+    },
+    {
+      "path": "benchmarking/bench_packages.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1945
+    },
+    {
+      "path": "benchmarking/conftest.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 419
+    },
+    {
+      "path": "benchmarking/samples",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "benchmarking/samples/block-bq-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 244
+    },
+    {
+      "path": "benchmarking/samples/block-bq-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 355
+    },
+    {
+      "path": "benchmarking/samples/block-code.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 72
+    },
+    {
+      "path": "benchmarking/samples/block-fences.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 71
+    },
+    {
+      "path": "benchmarking/samples/block-heading.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 123
+    },
+    {
+      "path": "benchmarking/samples/block-hr.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 73
+    },
+    {
+      "path": "benchmarking/samples/block-html.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 282
+    },
+    {
+      "path": "benchmarking/samples/block-lheading.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 113
+    },
+    {
+      "path": "benchmarking/samples/block-list-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 523
+    },
+    {
+      "path": "benchmarking/samples/block-list-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 387
+    },
+    {
+      "path": "benchmarking/samples/block-ref-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 474
+    },
+    {
+      "path": "benchmarking/samples/block-ref-list.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 782
+    },
+    {
+      "path": "benchmarking/samples/block-ref-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 257
+    },
+    {
+      "path": "benchmarking/samples/block-tables.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 508
+    },
+    {
+      "path": "benchmarking/samples/inline-autolink.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 557
+    },
+    {
+      "path": "benchmarking/samples/inline-backticks.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 64
+    },
+    {
+      "path": "benchmarking/samples/inline-em-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 155
+    },
+    {
+      "path": "benchmarking/samples/inline-em-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 155
+    },
+    {
+      "path": "benchmarking/samples/inline-em-worst.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 173
+    },
+    {
+      "path": "benchmarking/samples/inline-entity.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 328
+    },
+    {
+      "path": "benchmarking/samples/inline-escape.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 184
+    },
+    {
+      "path": "benchmarking/samples/inline-html.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 516
+    },
+    {
+      "path": "benchmarking/samples/inline-links-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 727
+    },
+    {
+      "path": "benchmarking/samples/inline-links-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 313
+    },
+    {
+      "path": "benchmarking/samples/inline-newlines.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 127
+    },
+    {
+      "path": "benchmarking/samples/lorem1.txt",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3789
+    },
+    {
+      "path": "benchmarking/samples/rawtabs.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 294
+    },
+    {
+      "path": "benchmarking/samples/spec.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 202827
+    },
+    {
+      "path": "codecov.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 162
+    },
+    {
+      "path": "docs",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "docs/.gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8
+    },
+    {
+      "path": "docs/Makefile",
+      "type": "blob",
+      "mode": "100644",
+      "size": 902
+    },
+    {
+      "path": "docs/_static",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "docs/_static/custom.css",
+      "type": "blob",
+      "mode": "100644",
+      "size": 137
+    },
+    {
+      "path": "docs/_static/markdown-it-py.svg",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5764
+    },
+    {
+      "path": "docs/architecture.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6848
+    },
+    {
+      "path": "docs/conf.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4515
+    },
+    {
+      "path": "docs/contributing.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4638
+    },
+    {
+      "path": "docs/index.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1927
+    },
+    {
+      "path": "docs/performance.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1587
+    },
+    {
+      "path": "docs/plugins.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1577
+    },
+    {
+      "path": "docs/requirements.txt",
+      "type": "blob",
+      "mode": "100644",
+      "size": 158
+    },
+    {
+      "path": "docs/security.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2207
+    },
+    {
+      "path": "docs/using.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11601
+    },
+    {
+      "path": "markdown_it",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 114
+    },
+    {
+      "path": "markdown_it/_compat.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 35
+    },
+    {
+      "path": "markdown_it/_punycode.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2373
+    },
+    {
+      "path": "markdown_it/cli",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/cli/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 0
+    },
+    {
+      "path": "markdown_it/cli/parse.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3688
+    },
+    {
+      "path": "markdown_it/common",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/common/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 0
+    },
+    {
+      "path": "markdown_it/common/entities.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 157
+    },
+    {
+      "path": "markdown_it/common/html_blocks.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 986
+    },
+    {
+      "path": "markdown_it/common/html_re.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1085
+    },
+    {
+      "path": "markdown_it/common/normalize_url.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2568
+    },
+    {
+      "path": "markdown_it/common/utils.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 9721
+    },
+    {
+      "path": "markdown_it/helpers",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/helpers/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 253
+    },
+    {
+      "path": "markdown_it/helpers/parse_link_destination.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1906
+    },
+    {
+      "path": "markdown_it/helpers/parse_link_label.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1037
+    },
+    {
+      "path": "markdown_it/helpers/parse_link_title.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2273
+    },
+    {
+      "path": "markdown_it/main.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 13065
+    },
+    {
+      "path": "markdown_it/parser_block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3939
+    },
+    {
+      "path": "markdown_it/parser_core.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1016
+    },
+    {
+      "path": "markdown_it/parser_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 7288
+    },
+    {
+      "path": "markdown_it/port.yaml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2850
+    },
+    {
+      "path": "markdown_it/presets",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/presets/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1583
+    },
+    {
+      "path": "markdown_it/presets/commonmark.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2869
+    },
+    {
+      "path": "markdown_it/presets/default.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1811
+    },
+    {
+      "path": "markdown_it/presets/zero.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2113
+    },
+    {
+      "path": "markdown_it/py.typed",
+      "type": "blob",
+      "mode": "100644",
+      "size": 26
+    },
+    {
+      "path": "markdown_it/renderer.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 10898
+    },
+    {
+      "path": "markdown_it/ruler.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 9142
+    },
+    {
+      "path": "markdown_it/rules_block",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/rules_block/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 593
+    },
+    {
+      "path": "markdown_it/rules_block/blockquote.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11506
+    },
+    {
+      "path": "markdown_it/rules_block/code.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 860
+    },
+    {
+      "path": "markdown_it/rules_block/fence.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4756
+    },
+    {
+      "path": "markdown_it/rules_block/heading.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1810
+    },
+    {
+      "path": "markdown_it/rules_block/hr.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1227
+    },
+    {
+      "path": "markdown_it/rules_block/html_block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2782
+    },
+    {
+      "path": "markdown_it/rules_block/lheading.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2659
+    },
+    {
+      "path": "markdown_it/rules_block/list.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 12039
+    },
+    {
+      "path": "markdown_it/rules_block/paragraph.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1853
+    },
+    {
+      "path": "markdown_it/rules_block/reference.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6983
+    },
+    {
+      "path": "markdown_it/rules_block/state_block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8422
+    },
+    {
+      "path": "markdown_it/rules_block/table.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 7690
+    },
+    {
+      "path": "markdown_it/rules_core",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/rules_core/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 394
+    },
+    {
+      "path": "markdown_it/rules_core/block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 372
+    },
+    {
+      "path": "markdown_it/rules_core/inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 325
+    },
+    {
+      "path": "markdown_it/rules_core/linkify.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5141
+    },
+    {
+      "path": "markdown_it/rules_core/normalize.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 403
+    },
+    {
+      "path": "markdown_it/rules_core/replacements.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3471
+    },
+    {
+      "path": "markdown_it/rules_core/smartquotes.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 7443
+    },
+    {
+      "path": "markdown_it/rules_core/state_core.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 570
+    },
+    {
+      "path": "markdown_it/rules_core/text_join.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1998
+    },
+    {
+      "path": "markdown_it/rules_inline",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/rules_inline/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 696
+    },
+    {
+      "path": "markdown_it/rules_inline/autolink.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2065
+    },
+    {
+      "path": "markdown_it/rules_inline/backticks.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2047
+    },
+    {
+      "path": "markdown_it/rules_inline/balance_pairs.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4852
+    },
+    {
+      "path": "markdown_it/rules_inline/emphasis.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3123
+    },
+    {
+      "path": "markdown_it/rules_inline/entity.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1873
+    },
+    {
+      "path": "markdown_it/rules_inline/escape.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1659
+    },
+    {
+      "path": "markdown_it/rules_inline/fragments_join.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1984
+    },
+    {
+      "path": "markdown_it/rules_inline/html_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2356
+    },
+    {
+      "path": "markdown_it/rules_inline/image.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4141
+    },
+    {
+      "path": "markdown_it/rules_inline/link.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4258
+    },
+    {
+      "path": "markdown_it/rules_inline/linkify.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1706
+    },
+    {
+      "path": "markdown_it/rules_inline/newline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1296
+    },
+    {
+      "path": "markdown_it/rules_inline/state_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8414
+    },
+    {
+      "path": "markdown_it/rules_inline/strikethrough.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5171
+    },
+    {
+      "path": "markdown_it/rules_inline/text.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 564
+    },
+    {
+      "path": "markdown_it/token.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6375
+    },
+    {
+      "path": "markdown_it/tree.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11004
+    },
+    {
+      "path": "markdown_it/utils.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6126
+    },
+    {
+      "path": "pyproject.toml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2951
+    },
+    {
+      "path": "scripts",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "scripts/build_fuzzers.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1162
+    },
+    {
+      "path": "scripts/profiler.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 448
+    },
+    {
+      "path": "tests",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 0
+    },
+    {
+      "path": "tests/fuzz",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/fuzz/README.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1906
+    },
+    {
+      "path": "tests/fuzz/fuzz_markdown.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 416
+    },
+    {
+      "path": "tests/fuzz/fuzz_markdown_extended.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1689
+    },
+    {
+      "path": "tests/test_api",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_api/test_main.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 17476
+    },
+    {
+      "path": "tests/test_api/test_main",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_api/test_main/test_table_tokens.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6504
+    },
+    {
+      "path": "tests/test_api/test_make_fence_rule.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 9842
+    },
+    {
+      "path": "tests/test_api/test_plugin_creation.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3791
+    },
+    {
+      "path": "tests/test_api/test_token.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 995
+    },
+    {
+      "path": "tests/test_cli.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5078
+    },
+    {
+      "path": "tests/test_cmark_spec",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_cmark_spec/commonmark.json",
+      "type": "blob",
+      "mode": "100644",
+      "size": 140487
+    },
+    {
+      "path": "tests/test_cmark_spec/get_cmark_spec.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3002
+    },
+    {
+      "path": "tests/test_cmark_spec/spec.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 205025
+    },
+    {
+      "path": "tests/test_cmark_spec/test_spec.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1060
+    },
+    {
+      "path": "tests/test_cmark_spec/test_spec",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_cmark_spec/test_spec/test_file.html",
+      "type": "blob",
+      "mode": "100644",
+      "size": 228446
+    },
+    {
+      "path": "tests/test_fuzzer.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1735
+    },
+    {
+      "path": "tests/test_html_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2654
+    },
+    {
+      "path": "tests/test_linkify.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 648
+    },
+    {
+      "path": "tests/test_packaging",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_packaging/test_sdist_includes_tests.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1064
+    },
+    {
+      "path": "tests/test_port",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_port/fixtures",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_port/fixtures/alerts.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2932
+    },
+    {
+      "path": "tests/test_port/fixtures/commonmark_extras.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8935
+    },
+    {
+      "path": "tests/test_port/fixtures/commonmark_spec.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 85468
+    },
+    {
+      "path": "tests/test_port/fixtures/disable_code_block.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 728
+    },
+    {
+      "path": "tests/test_port/fixtures/fatal.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 993
+    },
+    {
+      "path": "tests/test_port/fixtures/issue-fixes.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 649
+    },
+    {
+      "path": "tests/test_port/fixtures/linkify.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6260
+    },
+    {
+      "path": "tests/test_port/fixtures/normalize.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 768
+    },
+    {
+      "path": "tests/test_port/fixtures/proto.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 176
+    },
+    {
+      "path": "tests/test_port/fixtures/punycode.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1158
+    },
+    {
+      "path": "tests/test_port/fixtures/smartquotes.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2639
+    },
+    {
+      "path": "tests/test_port/fixtures/strikethrough.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1562
+    },
+    {
+      "path": "tests/test_port/fixtures/strikethrough_single_tilde.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1049
+    },
+    {
+      "path": "tests/test_port/fixtures/tables.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 10687
+    },
+    {
+      "path": "tests/test_port/fixtures/tasklists.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3740
+    },
+    {
+      "path": "tests/test_port/fixtures/typographer.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1108
+    },
+    {
+      "path": "tests/test_port/fixtures/xss.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2257
+    },
+    {
+      "path": "tests/test_port/test_fixtures.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4560
+    },
+    {
+      "path": "tests/test_port/test_misc.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1473
+    },
+    {
+      "path": "tests/test_port/test_no_end_newline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 810
+    },
+    {
+      "path": "tests/test_port/test_references.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1589
+    },
+    {
+      "path": "tests/test_port/test_references",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_port/test_references/test_inline_definitions.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1206
+    },
+    {
+      "path": "tests/test_port/test_references/test_store_labels.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2179
+    },
+    {
+      "path": "tests/test_port/test_references/test_use_existing_env.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1158
+    },
+    {
+      "path": "tests/test_port/test_whitespace.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2912
+    },
+    {
+      "path": "tests/test_tree.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3123
+    },
+    {
+      "path": "tests/test_tree",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_tree/test_pretty.xml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 502
+    },
+    {
+      "path": "tests/test_tree/test_pretty_text_special.xml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 149
+    },
+    {
+      "path": "tox.ini",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2128
+    }
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/6f586542653a56d2ee8549a0dccfaa6ba5ebe14a/LICENSE",
+      "status": "ok",
+      "blob_sha": "582ddf59e08277fe6e78cee924d2c84805fe36fe",
+      "bytes": 1078,
+      "content": "MIT License\n\nCopyright (c) 2020 ExecutableBookProject\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/6f586542653a56d2ee8549a0dccfaa6ba5ebe14a/README.md",
+      "status": "ok",
+      "blob_sha": "55f04ad974995071aa019ea5e5360d3946af8479",
+      "bytes": 5024,
+      "content": "# markdown-it-py\n\n[![Github-CI][github-ci]][github-link]\n[![Coverage Status][codecov-badge]][codecov-link]\n[![PyPI][pypi-badge]][pypi-link]\n[![Conda][conda-badge]][conda-link]\n[![PyPI - Downloads][install-badge]][install-link]\n\n<p align=\"center\">\n  <img alt=\"markdown-it-py icon\" src=\"https://raw.githubusercontent.com/executablebooks/markdown-it-py/master/docs/_static/markdown-it-py.svg\">\n</p>\n\n> Markdown parser done right.\n\n- Follows the __[CommonMark spec](http://spec.commonmark.org/)__ for baseline parsing\n- Configurable syntax: you can add new rules and even replace existing ones.\n- Pluggable: Adds syntax extensions to extend the parser (see the [plugin list][md-plugins]).\n- High speed (see our [benchmarking tests][md-performance])\n- Easy to configure for [security][md-security]\n- Member of [Google's Assured Open Source Software](https://cloud.google.com/assured-open-source-software/docs/supported-packages)\n\nThis is a Python port of [markdown-it], and some of its associated plugins.\nFor more details see: <https://markdown-it-py.readthedocs.io>.\n\nFor details on [markdown-it] itself, see:\n\n- The __[Live demo](https://markdown-it.github.io)__\n- [The markdown-it README][markdown-it-readme]\n\n**See also:** [markdown-it-pyrs](https://github.com/chrisjsewell/markdown-it-pyrs) for an experimental Rust binding,\nfor even more speed!\n\n## Installation\n\n### PIP\n\n```bash\npip install markdown-it-py[plugins]\n```\n\nor with extras\n\n```bash\npip install markdown-it-py[linkify,plugins]\n```\n\n### Conda\n\n```bash\nconda install -c conda-forge markdown-it-py\n```\n\nor with extras\n\n```bash\nconda install -c conda-forge markdown-it-py linkify-it-py mdit-py-plugins\n```\n\n## Usage\n\n### Python API Usage\n\nRender markdown to HTML with markdown-it-py and a custom configuration\nwith and without plugins and features:\n\n```python\nfrom markdown_it import MarkdownIt\nfrom mdit_py_plugins.front_matter import front_matter_plugin\nfrom mdit_py_plugins.footnote import footnote_plugin\n\nmd = (\n    MarkdownIt(\"commonmark\", {\"breaks\": True, \"html\": True})\n    .use(front_matter_plugin)\n    .use(footnote_plugin)\n    .enable(\"table\")\n)\ntext = \"\"\"\n---\na: 1\n---\n\na | b\n- | -\n1 | 2\n\nA footnote [^1]\n\n[^1]: some details\n\"\"\"\ntokens = md.parse(text)\nhtml_text = md.render(text)\n\n## To export the html to a file, uncomment the lines below:\n# from pathlib import Path\n# Path(\"output.html\").write_text(html_text)\n```\n\n### Command-line Usage\n\nRender markdown to HTML with markdown-it-py from the\ncommand-line:\n\n```console\nusage: markdown-it [-h] [-v] [--stdin] [--enable-tables] [filenames ...]\n\nParse one or more markdown files, convert each to HTML, and print to stdout\n\npositional arguments:\n  filenames        specify an optional list of files to convert\n\noptions:\n  -h, --help       show this help message and exit\n  -v, --version    show program's version number and exit\n  --stdin          read Markdown from standard input\n  --enable-tables  enable table parsing\n\nInteractive:\n\n  $ markdown-it\n  markdown-it-py [version 0.0.0] (interactive)\n  Type Ctrl-D to complete input, or Ctrl-C to exit.\n  >>> # Example\n  ... > markdown *input*\n  ...\n  <h1>Example</h1>\n  <blockquote>\n  <p>markdown <em>input</em></p>\n  </blockquote>\n\nBatch:\n\n  $ markdown-it README.md README.footer.md > index.html\n\n```\n\nTables are disabled by default, as in CommonMark.\nUse `--enable-tables` with any input mode to enable them:\n\n```bash\nmarkdown-it --enable-tables README.md > index.html\nmarkdown-it --enable-tables --stdin < README.md > index.html\nmarkdown-it --enable-tables\n```\n\n## References / Thanks\n\nBig thanks to the authors of [markdown-it]:\n\n- Alex Kocharin [github/rlidwka](https://github.com/rlidwka)\n- Vitaly Puzrin [github/puzrin](https://github.com/puzrin)\n\nAlso [John MacFarlane](https://github.com/jgm) for his work on the CommonMark spec and reference implementations.\n\n[github-ci]: https://github.com/executablebooks/markdown-it-py/actions/workflows/tests.yml/badge.svg?branch=master\n[github-link]: https://github.com/executablebooks/markdown-it-py\n[pypi-badge]: https://img.shields.io/pypi/v/markdown-it-py.svg\n[pypi-link]: https://pypi.org/project/markdown-it-py\n[conda-badge]: https://anaconda.org/conda-forge/markdown-it-py/badges/version.svg\n[conda-link]: https://anaconda.org/conda-forge/markdown-it-py\n[codecov-badge]: https://codecov.io/gh/executablebooks/markdown-it-py/branch/master/graph/badge.svg\n[codecov-link]: https://codecov.io/gh/executablebooks/markdown-it-py\n[install-badge]: https://img.shields.io/pypi/dw/markdown-it-py?label=pypi%20installs\n[install-link]: https://pypistats.org/packages/markdown-it-py\n\n[CommonMark spec]: http://spec.commonmark.org/\n[markdown-it]: https://github.com/markdown-it/markdown-it\n[markdown-it-readme]: https://github.com/markdown-it/markdown-it/blob/master/README.md\n[md-security]: https://markdown-it-py.readthedocs.io/en/latest/security.html\n[md-performance]: https://markdown-it-py.readthedocs.io/en/latest/performance.html\n[md-plugins]: https://markdown-it-py.readthedocs.io/en/latest/plugins.html\n"
+    }
+  ],
+  "limitations": [
+    "Untrusted text; not executed. Issues, releases, license compatibility, and integration remain to be assessed."
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "kind": "search",
+  "retrieved_at": "2026-09-25T16:07:38.690900+00:00",
+  "status": "ok",
+  "scope": "public, non-archived repositories on github.com",
+  "queries": [
+    {
+      "query": "markdown parser python in:name,description",
+      "status": "ok",
+      "returned": 6,
+      "limit": 6,
+      "may_have_more": true
+    },
+    {
+      "query": "html sanitizer python in:name,description",
+      "status": "ok",
+      "returned": 6,
+      "limit": 6,
+      "may_have_more": true
+    }
+  ],
+  "raw_count": 12,
+  "unique_count": 12,
+  "candidates": [
+    {
+      "description": "A fast yet powerful Python Markdown parser with renderers and plugins.",
+      "fullName": "lepture/mistune",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "url": "https://api.github.com/licenses/bsd-3-clause"
+      },
+      "pushedAt": "2026-08-21T04:48:29Z",
+      "stargazersCount": 3076,
+      "updatedAt": "2026-09-24T17:46:49Z",
+      "url": "https://github.com/lepture/mistune",
+      "matched_queries": [
+        "markdown parser python in:name,description"
+      ]
+    },
+    {
+      "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!",
+      "fullName": "executablebooks/markdown-it-py",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-21T16:41:34Z",
+      "stargazersCount": 1368,
+      "updatedAt": "2026-09-24T20:41:37Z",
+      "url": "https://github.com/executablebooks/markdown-it-py",
+      "matched_queries": [
+        "markdown parser python in:name,description"
+      ]
+    },
+    {
+      "description": "A fast, extensible and spec-compliant Markdown parser in pure Python.",
+      "fullName": "miyuchina/mistletoe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-16T06:52:44Z",
+      "stargazersCount": 1063,
+      "updatedAt": "2026-09-16T06:52:49Z",
+      "url": "https://github.com/miyuchina/mistletoe",
+      "matched_queries": [
+        "markdown parser python in:name,description"
+      ]
+    },
+    {
+      "description": "converts markdown into a Python parse tree",
+      "fullName": "alvinwan/md2py",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2016-04-02T04:57:58Z",
+      "stargazersCount": 59,
+      "updatedAt": "2026-05-10T13:24:28Z",
+      "url": "https://github.com/alvinwan/md2py",
+      "matched_queries": [
+        "markdown parser python in:name,description"
+      ]
+    },
+    {
+      "description": "The Python binding for hoedown, a markdown parsing library.",
+      "fullName": "hhatto/python-hoedown",
+      "isArchived": false,
+      "isFork": false,
+      "language": "HTML",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2018-10-11T12:46:06Z",
+      "stargazersCount": 53,
+      "updatedAt": "2026-09-16T12:15:28Z",
+      "url": "https://github.com/hhatto/python-hoedown",
+      "matched_queries": [
+        "markdown parser python in:name,description"
+      ]
+    },
+    {
+      "description": "A Python interface for markdown-it.rs, using Rust for blazingly fast parsing ⚡️ ",
+      "fullName": "chrisjsewell/markdown-it-pyrs",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Rust",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-21T21:54:27Z",
+      "stargazersCount": 64,
+      "updatedAt": "2026-09-01T20:20:23Z",
+      "url": "https://github.com/chrisjsewell/markdown-it-pyrs",
+      "matched_queries": [
+        "markdown parser python in:name,description"
+      ]
+    },
+    {
+      "description": "Python binding to Ammonia HTML sanitizer Rust crate",
+      "fullName": "messense/nh3",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Rust",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-21T23:29:30Z",
+      "stargazersCount": 394,
+      "updatedAt": "2026-09-21T23:29:33Z",
+      "url": "https://github.com/messense/nh3",
+      "matched_queries": [
+        "html sanitizer python in:name,description"
+      ]
+    },
+    {
+      "description": "A whitelisting HTML sanitizer for Python",
+      "fullName": "samuel/python-scrubber",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "url": "https://api.github.com/licenses/bsd-3-clause"
+      },
+      "pushedAt": "2014-02-28T18:41:13Z",
+      "stargazersCount": 21,
+      "updatedAt": "2022-09-10T06:50:10Z",
+      "url": "https://github.com/samuel/python-scrubber",
+      "matched_queries": [
+        "html sanitizer python in:name,description"
+      ]
+    },
+    {
+      "description": "Django integration with for nh3, Python binding to Ammonia HTML sanitizer Rust crate.",
+      "fullName": "marksweb/django-nh3",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-07T23:34:55Z",
+      "stargazersCount": 43,
+      "updatedAt": "2026-09-07T23:34:58Z",
+      "url": "https://github.com/marksweb/django-nh3",
+      "matched_queries": [
+        "html sanitizer python in:name,description"
+      ]
+    },
+    {
+      "description": "Html cleaner and sanitizer for Python projects and as standalone app",
+      "fullName": "ProstoKSI/html-cleaner",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2013-12-26T15:18:10Z",
+      "stargazersCount": 3,
+      "updatedAt": "2026-04-18T21:50:05Z",
+      "url": "https://github.com/ProstoKSI/html-cleaner",
+      "matched_queries": [
+        "html sanitizer python in:name,description"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "OpenMandrivaAssociation/python-html-sanitizer",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-09-16T09:24:10Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-07-09T14:48:13Z",
+      "url": "https://github.com/OpenMandrivaAssociation/python-html-sanitizer",
+      "matched_queries": [
+        "html sanitizer python in:name,description"
+      ]
+    },
+    {
+      "description": "Python binding to Ammonia HTML sanitizer Rust crate",
+      "fullName": "pld-linux/python3-nh3",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-12-05T18:17:45Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-12-05T17:52:35Z",
+      "url": "https://github.com/pld-linux/python3-nh3",
+      "matched_queries": [
+        "html sanitizer python in:name,description"
+      ]
+    }
+  ],
+  "limitations": [
+    "Bounded search, not exhaustive; metadata is not source validation."
+  ]
+}

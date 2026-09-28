@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-28T08:09:40.866780+00:00",
+  "sdk": "official mcp Python Client",
+  "sdk_version": "2.2.0",
+  "checks": [
+    {
+      "transport": "streamable-http",
+      "status": "passed",
+      "tool_count": 4,
+      "tool_names": [
+        "jumpstart_guide",
+        "jumpstart_search",
+        "jumpstart_inspect",
+        "jumpstart_evidence"
+      ],
+      "guide": {
+        "status": "ok",
+        "characters": 8910,
+        "contains_jumpstart_heading": true
+      },
+      "server_stopped": true,
+      "server_exit_code": -15
+    },
+    {
+      "transport": "stdio",
+      "status": "passed",
+      "search": {
+        "status": "ok",
+        "raw_count": 2,
+        "unique_count": 2,
+        "queries": [
+          {
+            "query": "markdown-it-py in:name",
+            "status": "ok",
+            "returned": 2,
+            "limit": 2,
+            "may_have_more": true
+          }
+        ]
+      },
+      "inspect": {
+        "status": "ok",
+        "repository": "executablebooks/markdown-it-py",
+        "revision": "6f586542653a56d2ee8549a0dccfaa6ba5ebe14a",
+        "source_bytes_read": 114,
+        "files": [
+          {
+            "path": "markdown_it/__init__.py",
+            "status": "ok",
+            "bytes": 114,
+            "url": "https://github.com/executablebooks/markdown-it-py/blob/6f586542653a56d2ee8549a0dccfaa6ba5ebe14a/markdown_it/__init__.py"
+          }
+        ]
+      },
+      "evidence": {
+        "status": "ok",
+        "repository": "executablebooks/markdown-it-py",
+        "revision": "6f586542653a56d2ee8549a0dccfaa6ba5ebe14a",
+        "path": "markdown_it/__init__.py",
+        "start_line": 1,
+        "selected_line_count": 5,
+        "total_lines": 6,
+        "text_truncated": false,
+        "content_characters": 84
+      }
+    }
+  ],
+  "status": "passed"
+}

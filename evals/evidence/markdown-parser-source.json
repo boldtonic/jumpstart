@@ -1,0 +1,1296 @@
+{
+  "schema_version": 1,
+  "kind": "snapshot",
+  "retrieved_at": "2026-09-25T16:09:20.591489+00:00",
+  "status": "ok",
+  "repository": "executablebooks/markdown-it-py",
+  "requested_ref": "v4.2.0",
+  "revision": "36c5f547144df2d01970a5792d68c71a3380b227",
+  "commit_date": "2026-05-07T12:06:02Z",
+  "metadata": {
+    "html_url": "https://github.com/executablebooks/markdown-it-py",
+    "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-21T16:41:34Z",
+    "stargazers_count": 1368
+  },
+  "tree_truncated": false,
+  "tree": [
+    {
+      "path": ".github",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1669
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 232
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/enhancement.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1152
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1176
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3696
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1939
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 870
+    },
+    {
+      "path": ".readthedocs.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 309
+    },
+    {
+      "path": "AGENTS.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 14450
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 19334
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1078
+    },
+    {
+      "path": "LICENSE.markdown-it",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1073
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4728
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 582
+    },
+    {
+      "path": "benchmarking",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "benchmarking/bench_core.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 375
+    },
+    {
+      "path": "benchmarking/bench_packages.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2151
+    },
+    {
+      "path": "benchmarking/conftest.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 419
+    },
+    {
+      "path": "benchmarking/samples",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "benchmarking/samples/block-bq-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 244
+    },
+    {
+      "path": "benchmarking/samples/block-bq-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 355
+    },
+    {
+      "path": "benchmarking/samples/block-code.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 72
+    },
+    {
+      "path": "benchmarking/samples/block-fences.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 71
+    },
+    {
+      "path": "benchmarking/samples/block-heading.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 123
+    },
+    {
+      "path": "benchmarking/samples/block-hr.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 73
+    },
+    {
+      "path": "benchmarking/samples/block-html.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 282
+    },
+    {
+      "path": "benchmarking/samples/block-lheading.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 113
+    },
+    {
+      "path": "benchmarking/samples/block-list-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 523
+    },
+    {
+      "path": "benchmarking/samples/block-list-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 387
+    },
+    {
+      "path": "benchmarking/samples/block-ref-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 474
+    },
+    {
+      "path": "benchmarking/samples/block-ref-list.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 782
+    },
+    {
+      "path": "benchmarking/samples/block-ref-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 257
+    },
+    {
+      "path": "benchmarking/samples/block-tables.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 508
+    },
+    {
+      "path": "benchmarking/samples/inline-autolink.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 557
+    },
+    {
+      "path": "benchmarking/samples/inline-backticks.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 64
+    },
+    {
+      "path": "benchmarking/samples/inline-em-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 155
+    },
+    {
+      "path": "benchmarking/samples/inline-em-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 155
+    },
+    {
+      "path": "benchmarking/samples/inline-em-worst.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 173
+    },
+    {
+      "path": "benchmarking/samples/inline-entity.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 328
+    },
+    {
+      "path": "benchmarking/samples/inline-escape.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 184
+    },
+    {
+      "path": "benchmarking/samples/inline-html.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 516
+    },
+    {
+      "path": "benchmarking/samples/inline-links-flat.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 727
+    },
+    {
+      "path": "benchmarking/samples/inline-links-nested.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 313
+    },
+    {
+      "path": "benchmarking/samples/inline-newlines.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 127
+    },
+    {
+      "path": "benchmarking/samples/lorem1.txt",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3789
+    },
+    {
+      "path": "benchmarking/samples/rawtabs.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 294
+    },
+    {
+      "path": "benchmarking/samples/spec.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 202827
+    },
+    {
+      "path": "codecov.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 162
+    },
+    {
+      "path": "docs",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "docs/.gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8
+    },
+    {
+      "path": "docs/Makefile",
+      "type": "blob",
+      "mode": "100644",
+      "size": 902
+    },
+    {
+      "path": "docs/_static",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "docs/_static/custom.css",
+      "type": "blob",
+      "mode": "100644",
+      "size": 137
+    },
+    {
+      "path": "docs/_static/markdown-it-py.svg",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5764
+    },
+    {
+      "path": "docs/architecture.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6818
+    },
+    {
+      "path": "docs/conf.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4499
+    },
+    {
+      "path": "docs/contributing.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4638
+    },
+    {
+      "path": "docs/index.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1926
+    },
+    {
+      "path": "docs/performance.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1389
+    },
+    {
+      "path": "docs/plugins.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1575
+    },
+    {
+      "path": "docs/requirements.txt",
+      "type": "blob",
+      "mode": "100644",
+      "size": 158
+    },
+    {
+      "path": "docs/security.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2207
+    },
+    {
+      "path": "docs/using.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 10994
+    },
+    {
+      "path": "markdown_it",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 114
+    },
+    {
+      "path": "markdown_it/_compat.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 35
+    },
+    {
+      "path": "markdown_it/_punycode.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2373
+    },
+    {
+      "path": "markdown_it/cli",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/cli/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 0
+    },
+    {
+      "path": "markdown_it/cli/parse.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3362
+    },
+    {
+      "path": "markdown_it/common",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/common/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 0
+    },
+    {
+      "path": "markdown_it/common/entities.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 157
+    },
+    {
+      "path": "markdown_it/common/html_blocks.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 986
+    },
+    {
+      "path": "markdown_it/common/html_re.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 926
+    },
+    {
+      "path": "markdown_it/common/normalize_url.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2568
+    },
+    {
+      "path": "markdown_it/common/utils.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8734
+    },
+    {
+      "path": "markdown_it/helpers",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/helpers/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 253
+    },
+    {
+      "path": "markdown_it/helpers/parse_link_destination.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1906
+    },
+    {
+      "path": "markdown_it/helpers/parse_link_label.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1037
+    },
+    {
+      "path": "markdown_it/helpers/parse_link_title.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2273
+    },
+    {
+      "path": "markdown_it/main.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 12759
+    },
+    {
+      "path": "markdown_it/parser_block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3939
+    },
+    {
+      "path": "markdown_it/parser_core.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1016
+    },
+    {
+      "path": "markdown_it/parser_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 7283
+    },
+    {
+      "path": "markdown_it/port.yaml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2447
+    },
+    {
+      "path": "markdown_it/presets",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/presets/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1583
+    },
+    {
+      "path": "markdown_it/presets/commonmark.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2869
+    },
+    {
+      "path": "markdown_it/presets/default.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1811
+    },
+    {
+      "path": "markdown_it/presets/zero.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2113
+    },
+    {
+      "path": "markdown_it/py.typed",
+      "type": "blob",
+      "mode": "100644",
+      "size": 26
+    },
+    {
+      "path": "markdown_it/renderer.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 10628
+    },
+    {
+      "path": "markdown_it/ruler.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 9142
+    },
+    {
+      "path": "markdown_it/rules_block",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/rules_block/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 593
+    },
+    {
+      "path": "markdown_it/rules_block/blockquote.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11506
+    },
+    {
+      "path": "markdown_it/rules_block/code.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 860
+    },
+    {
+      "path": "markdown_it/rules_block/fence.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4784
+    },
+    {
+      "path": "markdown_it/rules_block/heading.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1745
+    },
+    {
+      "path": "markdown_it/rules_block/hr.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1227
+    },
+    {
+      "path": "markdown_it/rules_block/html_block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2721
+    },
+    {
+      "path": "markdown_it/rules_block/lheading.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2625
+    },
+    {
+      "path": "markdown_it/rules_block/list.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 12039
+    },
+    {
+      "path": "markdown_it/rules_block/paragraph.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1819
+    },
+    {
+      "path": "markdown_it/rules_block/reference.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6983
+    },
+    {
+      "path": "markdown_it/rules_block/state_block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8422
+    },
+    {
+      "path": "markdown_it/rules_block/table.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 7682
+    },
+    {
+      "path": "markdown_it/rules_core",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/rules_core/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 394
+    },
+    {
+      "path": "markdown_it/rules_core/block.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 372
+    },
+    {
+      "path": "markdown_it/rules_core/inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 325
+    },
+    {
+      "path": "markdown_it/rules_core/linkify.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5141
+    },
+    {
+      "path": "markdown_it/rules_core/normalize.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 403
+    },
+    {
+      "path": "markdown_it/rules_core/replacements.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3471
+    },
+    {
+      "path": "markdown_it/rules_core/smartquotes.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 7443
+    },
+    {
+      "path": "markdown_it/rules_core/state_core.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 570
+    },
+    {
+      "path": "markdown_it/rules_core/text_join.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1998
+    },
+    {
+      "path": "markdown_it/rules_inline",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "markdown_it/rules_inline/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 696
+    },
+    {
+      "path": "markdown_it/rules_inline/autolink.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2065
+    },
+    {
+      "path": "markdown_it/rules_inline/backticks.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2037
+    },
+    {
+      "path": "markdown_it/rules_inline/balance_pairs.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4852
+    },
+    {
+      "path": "markdown_it/rules_inline/emphasis.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3123
+    },
+    {
+      "path": "markdown_it/rules_inline/entity.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1651
+    },
+    {
+      "path": "markdown_it/rules_inline/escape.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1659
+    },
+    {
+      "path": "markdown_it/rules_inline/fragments_join.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1984
+    },
+    {
+      "path": "markdown_it/rules_inline/html_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1130
+    },
+    {
+      "path": "markdown_it/rules_inline/image.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4141
+    },
+    {
+      "path": "markdown_it/rules_inline/link.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4258
+    },
+    {
+      "path": "markdown_it/rules_inline/linkify.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1706
+    },
+    {
+      "path": "markdown_it/rules_inline/newline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1297
+    },
+    {
+      "path": "markdown_it/rules_inline/state_inline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4993
+    },
+    {
+      "path": "markdown_it/rules_inline/strikethrough.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 5171
+    },
+    {
+      "path": "markdown_it/rules_inline/text.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 559
+    },
+    {
+      "path": "markdown_it/token.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6381
+    },
+    {
+      "path": "markdown_it/tree.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11110
+    },
+    {
+      "path": "markdown_it/utils.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6142
+    },
+    {
+      "path": "pyproject.toml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2875
+    },
+    {
+      "path": "scripts",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "scripts/build_fuzzers.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1162
+    },
+    {
+      "path": "scripts/profiler.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 448
+    },
+    {
+      "path": "tests",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/__init__.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 0
+    },
+    {
+      "path": "tests/fuzz",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/fuzz/README.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1906
+    },
+    {
+      "path": "tests/fuzz/fuzz_markdown.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 416
+    },
+    {
+      "path": "tests/fuzz/fuzz_markdown_extended.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1689
+    },
+    {
+      "path": "tests/test_api",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_api/test_main.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 10884
+    },
+    {
+      "path": "tests/test_api/test_main",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_api/test_main/test_table_tokens.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6504
+    },
+    {
+      "path": "tests/test_api/test_make_fence_rule.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 9842
+    },
+    {
+      "path": "tests/test_api/test_plugin_creation.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3791
+    },
+    {
+      "path": "tests/test_api/test_token.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 995
+    },
+    {
+      "path": "tests/test_cli.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3029
+    },
+    {
+      "path": "tests/test_cmark_spec",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_cmark_spec/commonmark.json",
+      "type": "blob",
+      "mode": "100644",
+      "size": 140487
+    },
+    {
+      "path": "tests/test_cmark_spec/get_cmark_spec.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3034
+    },
+    {
+      "path": "tests/test_cmark_spec/spec.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 205025
+    },
+    {
+      "path": "tests/test_cmark_spec/test_spec.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1060
+    },
+    {
+      "path": "tests/test_cmark_spec/test_spec",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_cmark_spec/test_spec/test_file.html",
+      "type": "blob",
+      "mode": "100644",
+      "size": 228446
+    },
+    {
+      "path": "tests/test_fuzzer.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 843
+    },
+    {
+      "path": "tests/test_linkify.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 648
+    },
+    {
+      "path": "tests/test_port",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_port/fixtures",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_port/fixtures/alerts.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2709
+    },
+    {
+      "path": "tests/test_port/fixtures/commonmark_extras.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 8740
+    },
+    {
+      "path": "tests/test_port/fixtures/commonmark_spec.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 85468
+    },
+    {
+      "path": "tests/test_port/fixtures/disable_code_block.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 728
+    },
+    {
+      "path": "tests/test_port/fixtures/fatal.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 993
+    },
+    {
+      "path": "tests/test_port/fixtures/issue-fixes.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 649
+    },
+    {
+      "path": "tests/test_port/fixtures/linkify.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 6260
+    },
+    {
+      "path": "tests/test_port/fixtures/normalize.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 768
+    },
+    {
+      "path": "tests/test_port/fixtures/proto.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 176
+    },
+    {
+      "path": "tests/test_port/fixtures/punycode.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1158
+    },
+    {
+      "path": "tests/test_port/fixtures/smartquotes.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2639
+    },
+    {
+      "path": "tests/test_port/fixtures/strikethrough.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1562
+    },
+    {
+      "path": "tests/test_port/fixtures/strikethrough_single_tilde.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1049
+    },
+    {
+      "path": "tests/test_port/fixtures/tables.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 10687
+    },
+    {
+      "path": "tests/test_port/fixtures/tasklists.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3740
+    },
+    {
+      "path": "tests/test_port/fixtures/typographer.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1108
+    },
+    {
+      "path": "tests/test_port/fixtures/xss.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2257
+    },
+    {
+      "path": "tests/test_port/test_fixtures.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 4560
+    },
+    {
+      "path": "tests/test_port/test_misc.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1473
+    },
+    {
+      "path": "tests/test_port/test_no_end_newline.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 810
+    },
+    {
+      "path": "tests/test_port/test_references.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1589
+    },
+    {
+      "path": "tests/test_port/test_references",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_port/test_references/test_inline_definitions.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1206
+    },
+    {
+      "path": "tests/test_port/test_references/test_store_labels.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2179
+    },
+    {
+      "path": "tests/test_port/test_references/test_use_existing_env.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1158
+    },
+    {
+      "path": "tests/test_tree.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3123
+    },
+    {
+      "path": "tests/test_tree",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_tree/test_pretty.xml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 502
+    },
+    {
+      "path": "tests/test_tree/test_pretty_text_special.xml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 149
+    },
+    {
+      "path": "tox.ini",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2128
+    }
+  ],
+  "files": [
+    {
+      "path": "markdown_it/main.py",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/markdown_it/main.py",
+      "status": "ok",
+      "blob_sha": "87835e541f1d8500ef874cbf3450aac19e5e451b",
+      "bytes": 12759,
+      "content": "from __future__ import annotations\n\nfrom collections.abc import Callable, Generator, Iterable, Mapping, MutableMapping\nfrom contextlib import contextmanager\nfrom typing import Any, Literal, overload\n\nfrom . import helpers, presets\nfrom .common import normalize_url, utils\nfrom .parser_block import ParserBlock\nfrom .parser_core import ParserCore\nfrom .parser_inline import ParserInline\nfrom .renderer import RendererHTML, RendererProtocol\nfrom .rules_core.state_core import StateCore\nfrom .token import Token\nfrom .utils import EnvType, OptionsDict, OptionsType, PresetType\n\ntry:\n    import linkify_it\nexcept ModuleNotFoundError:\n    linkify_it = None\n\n\n_PRESETS: dict[str, PresetType] = {\n    \"default\": presets.default.make(),\n    \"js-default\": presets.js_default.make(),\n    \"zero\": presets.zero.make(),\n    \"commonmark\": presets.commonmark.make(),\n    \"gfm-like\": presets.gfm_like.make(),\n    \"gfm-like2\": presets.gfm_like2.make(),\n}\n\n\nclass MarkdownIt:\n    def __init__(\n        self,\n        config: str | PresetType = \"commonmark\",\n        options_update: Mapping[str, Any] | None = None,\n        *,\n        renderer_cls: Callable[[MarkdownIt], RendererProtocol] = RendererHTML,\n    ):\n        \"\"\"Main parser class\n\n        :param config: name of configuration to load or a pre-defined dictionary\n        :param options_update: dictionary that will be merged into ``config[\"options\"]``\n        :param renderer_cls: the class to load as the renderer:\n            ``self.renderer = renderer_cls(self)\n        \"\"\"\n        # add modules\n        self.utils = utils\n        self.helpers = helpers\n\n        # initialise classes\n        self.inline = ParserInline()\n        self.block = ParserBlock()\n        self.core = ParserCore()\n        self.renderer = renderer_cls(self)\n        self.linkify = linkify_it.LinkifyIt() if linkify_it else None\n\n        # set the configuration\n        if options_update and not isinstance(options_update, Mapping):\n            # catch signature change where renderer_cls was not used as a key-word\n            raise TypeError(\n                f\"options_update should be a mapping: {options_update}\"\n                \"\\n(Perhaps you intended this to be the renderer_cls?)\"\n            )\n        self.configure(config, options_update=options_update)\n\n    def __repr__(self) -> str:\n        return f\"{self.__class__.__module__}.{self.__class__.__name__}()\"\n\n    @overload\n    def __getitem__(self, name: Literal[\"inline\"]) -> ParserInline: ...\n\n    @overload\n    def __getitem__(self, name: Literal[\"block\"]) -> ParserBlock: ...\n\n    @overload\n    def __getitem__(self, name: Literal[\"core\"]) -> ParserCore: ...\n\n    @overload\n    def __getitem__(self, name: Literal[\"renderer\"]) -> RendererProtocol: ...\n\n    @overload\n    def __getitem__(self, name: str) -> Any: ...\n\n    def __getitem__(self, name: str) -> Any:\n        return {\n            \"inline\": self.inline,\n            \"block\": self.block,\n            \"core\": self.core,\n            \"renderer\": self.renderer,\n        }[name]\n\n    def set(self, options: OptionsType) -> None:\n        \"\"\"Set parser options (in the same format as in constructor).\n        Probably, you will never need it, but you can change options after constructor call.\n\n        __Note:__ To achieve the best possible performance, don't modify a\n        `markdown-it` instance options on the fly. If you need multiple configurations\n        it's best to create multiple instances and initialize each with separate config.\n        \"\"\"\n        self.options = OptionsDict(options)\n\n    def configure(\n        self, presets: str | PresetType, options_update: Mapping[str, Any] | None = None\n    ) -> MarkdownIt:\n        \"\"\"Batch load of all options and component settings.\n        This is an internal method, and you probably will not need it.\n        But if you will - see available presets and data structure\n        [here](https://github.com/markdown-it/markdown-it/tree/master/lib/presets)\n\n        We strongly recommend to use presets instead of direct config loads.\n        That will give better compatibility with next versions.\n        \"\"\"\n        if isinstance(presets, str):\n            if presets not in _PRESETS:\n                raise KeyError(f\"Wrong `markdown-it` preset '{presets}', check name\")\n            config = _PRESETS[presets]\n        else:\n            config = presets\n\n        if not config:\n            raise ValueError(\"Wrong `markdown-it` config, can't be empty\")\n\n        options = config.get(\"options\", {}) or {}\n        if options_update:\n            options = {**options, **options_update}  # type: ignore\n\n        self.set(options)\n\n        if \"components\" in config:\n            for name, component in config[\"components\"].items():\n                rules = component.get(\"rules\", None)\n                if rules:\n                    self[name].ruler.enableOnly(rules)\n                rules2 = component.get(\"rules2\", None)\n                if rules2:\n                    self[name].ruler2.enableOnly(rules2)\n\n        return self\n\n    def get_all_rules(self) -> dict[str, list[str]]:\n        \"\"\"Return the names of all active rules.\"\"\"\n        rules = {\n            chain: self[chain].ruler.get_all_rules()\n            for chain in [\"core\", \"block\", \"inline\"]\n        }\n        rules[\"inline2\"] = self.inline.ruler2.get_all_rules()\n        return rules\n\n    def get_active_rules(self) -> dict[str, list[str]]:\n        \"\"\"Return the names of all active rules.\"\"\"\n        rules = {\n            chain: self[chain].ruler.get_active_rules()\n            for chain in [\"core\", \"block\", \"inline\"]\n        }\n        rules[\"inline2\"] = self.inline.ruler2.get_active_rules()\n        return rules\n\n    def enable(\n        self, names: str | Iterable[str], ignoreInvalid: bool = False\n    ) -> MarkdownIt:\n        \"\"\"Enable list or rules. (chainable)\n\n        :param names: rule name or list of rule names to enable.\n        :param ignoreInvalid: set `true` to ignore errors when rule not found.\n\n        It will automatically find appropriate components,\n        containing rules with given names. If rule not found, and `ignoreInvalid`\n        not set - throws exception.\n\n        Example::\n\n            md = MarkdownIt().enable(['sub', 'sup']).disable('smartquotes')\n\n        \"\"\"\n        result = []\n\n        if isinstance(names, str):\n            names = [names]\n\n        for chain in [\"core\", \"block\", \"inline\"]:\n            result.extend(self[chain].ruler.enable(names, True))\n        result.extend(self.inline.ruler2.enable(names, True))\n\n        missed = [name for name in names if name not in result]\n        if missed and not ignoreInvalid:\n            raise ValueError(f\"MarkdownIt. Failed to enable unknown rule(s): {missed}\")\n\n        return self\n\n    def disable(\n        self, names: str | Iterable[str], ignoreInvalid: bool = False\n    ) -> MarkdownIt:\n        \"\"\"The same as [[MarkdownIt.enable]], but turn specified rules off. (chainable)\n\n        :param names: rule name or list of rule names to disable.\n        :param ignoreInvalid: set `true` to ignore errors when rule not found.\n\n        \"\"\"\n        result = []\n\n        if isinstance(names, str):\n            names = [names]\n\n        for chain in [\"core\", \"block\", \"inline\"]:\n            result.extend(self[chain].ruler.disable(names, True))\n        result.extend(self.inline.ruler2.disable(names, True))\n\n        missed = [name for name in names if name not in result]\n        if missed and not ignoreInvalid:\n            raise ValueError(f\"MarkdownIt. Failed to disable unknown rule(s): {missed}\")\n        return self\n\n    @contextmanager\n    def reset_rules(self) -> Generator[None, None, None]:\n        \"\"\"A context manager, that will reset the current enabled rules on exit.\"\"\"\n        chain_rules = self.get_active_rules()\n        yield\n        for chain, rules in chain_rules.items():\n            if chain != \"inline2\":\n                self[chain].ruler.enableOnly(rules)\n        self.inline.ruler2.enableOnly(chain_rules[\"inline2\"])\n\n    def add_render_rule(\n        self, name: str, function: Callable[..., Any], fmt: str = \"html\"\n    ) -> None:\n        \"\"\"Add a rule for rendering a particular Token type.\n\n        Only applied when ``renderer.__output__ == fmt``\n        \"\"\"\n        if self.renderer.__output__ == fmt:\n            self.renderer.rules[name] = function.__get__(self.renderer)  # type: ignore\n\n    def use(\n        self, plugin: Callable[..., None], *params: Any, **options: Any\n    ) -> MarkdownIt:\n        \"\"\"Load specified plugin with given params into current parser instance. (chainable)\n\n        It's just a sugar to call `plugin(md, params)` with curring.\n\n        Example::\n\n            def func(tokens, idx):\n                tokens[idx].content = tokens[idx].content.replace('foo', 'bar')\n            md = MarkdownIt().use(plugin, 'foo_replace', 'text', func)\n\n        \"\"\"\n        plugin(self, *params, **options)\n        return self\n\n    def parse(self, src: str, env: EnvType | None = None) -> list[Token]:\n        \"\"\"Parse the source string to a token stream\n\n        :param src: source string\n        :param env: environment sandbox\n\n        Parse input string and return list of block tokens (special token type\n        \"inline\" will contain list of inline tokens).\n\n        `env` is used to pass data between \"distributed\" rules and return additional\n        metadata like reference info, needed for the renderer. It also can be used to\n        inject data in specific cases. Usually, you will be ok to pass `{}`,\n        and then pass updated object to renderer.\n        \"\"\"\n        env = {} if env is None else env\n        if not isinstance(env, MutableMapping):\n            raise TypeError(f\"Input data should be a MutableMapping, not {type(env)}\")\n        if not isinstance(src, str):\n            raise TypeError(f\"Input data should be a string, not {type(src)}\")\n        state = StateCore(src, self, env)\n        self.core.process(state)\n        return state.tokens\n\n    def render(self, src: str, env: EnvType | None = None) -> Any:\n        \"\"\"Render markdown string into html. It does all magic for you :).\n\n        :param src: source string\n        :param env: environment sandbox\n        :returns: The output of the loaded renderer\n\n        `env` can be used to inject additional metadata (`{}` by default).\n        But you will not need it with high probability. See also comment\n        in [[MarkdownIt.parse]].\n        \"\"\"\n        env = {} if env is None else env\n        return self.renderer.render(self.parse(src, env), self.options, env)\n\n    def parseInline(self, src: str, env: EnvType | None = None) -> list[Token]:\n        \"\"\"The same as [[MarkdownIt.parse]] but skip all block rules.\n\n        :param src: source string\n        :param env: environment sandbox\n\n        It returns the\n        block tokens list with the single `inline` element, containing parsed inline\n        tokens in `children` property. Also updates `env` object.\n        \"\"\"\n        env = {} if env is None else env\n        if not isinstance(env, MutableMapping):\n            raise TypeError(f\"Input data should be an MutableMapping, not {type(env)}\")\n        if not isinstance(src, str):\n            raise TypeError(f\"Input data should be a string, not {type(src)}\")\n        state = StateCore(src, self, env)\n        state.inlineMode = True\n        self.core.process(state)\n        return state.tokens\n\n    def renderInline(self, src: str, env: EnvType | None = None) -> Any:\n        \"\"\"Similar to [[MarkdownIt.render]] but for single paragraph content.\n\n        :param src: source string\n        :param env: environment sandbox\n\n        Similar to [[MarkdownIt.render]] but for single paragraph content. Result\n        will NOT be wrapped into `<p>` tags.\n        \"\"\"\n        env = {} if env is None else env\n        return self.renderer.render(self.parseInline(src, env), self.options, env)\n\n    # link methods\n\n    def validateLink(self, url: str) -> bool:\n        \"\"\"Validate if the URL link is allowed in output.\n\n        This validator can prohibit more than really needed to prevent XSS.\n        It's a tradeoff to keep code simple and to be secure by default.\n\n        Note: the url should be normalized at this point, and existing entities decoded.\n        \"\"\"\n        return normalize_url.validateLink(url)\n\n    def normalizeLink(self, url: str) -> str:\n        \"\"\"Normalize destination URLs in links\n\n        ::\n\n            [label]:   destination   'title'\n                    ^^^^^^^^^^^\n        \"\"\"\n        return normalize_url.normalizeLink(url)\n\n    def normalizeLinkText(self, link: str) -> str:\n        \"\"\"Normalize autolink content\n\n        ::\n\n            <destination>\n            ~~~~~~~~~~~\n        \"\"\"\n        return normalize_url.normalizeLinkText(link)\n"
+    },
+    {
+      "path": "tests/test_api/test_main.py",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/tests/test_api/test_main.py",
+      "status": "ok",
+      "blob_sha": "297c20d82581bc2f1e8990a50370ea20b791a988",
+      "bytes": 10884,
+      "content": "from markdown_it import MarkdownIt\nfrom markdown_it.token import Token\n\n\ndef test_get_rules():\n    md = MarkdownIt(\"zero\")\n    # print(md.get_all_rules())\n    assert md.get_all_rules() == {\n        \"core\": [\n            \"normalize\",\n            \"block\",\n            \"inline\",\n            \"linkify\",\n            \"replacements\",\n            \"smartquotes\",\n            \"text_join\",\n        ],\n        \"block\": [\n            \"table\",\n            \"code\",\n            \"fence\",\n            \"blockquote\",\n            \"hr\",\n            \"list\",\n            \"reference\",\n            \"html_block\",\n            \"heading\",\n            \"lheading\",\n            \"paragraph\",\n        ],\n        \"inline\": [\n            \"text\",\n            \"linkify\",\n            \"newline\",\n            \"escape\",\n            \"backticks\",\n            \"strikethrough\",\n            \"emphasis\",\n            \"link\",\n            \"image\",\n            \"autolink\",\n            \"html_inline\",\n            \"entity\",\n        ],\n        \"inline2\": [\"balance_pairs\", \"strikethrough\", \"emphasis\", \"fragments_join\"],\n    }\n\n\ndef test_load_presets():\n    md = MarkdownIt(\"zero\")\n    assert md.get_active_rules() == {\n        \"block\": [\"paragraph\"],\n        \"core\": [\"normalize\", \"block\", \"inline\", \"text_join\"],\n        \"inline\": [\"text\"],\n        \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n    }\n    md = MarkdownIt(\"commonmark\")\n    assert md.get_active_rules() == {\n        \"core\": [\"normalize\", \"block\", \"inline\", \"text_join\"],\n        \"block\": [\n            \"code\",\n            \"fence\",\n            \"blockquote\",\n            \"hr\",\n            \"list\",\n            \"reference\",\n            \"html_block\",\n            \"heading\",\n            \"lheading\",\n            \"paragraph\",\n        ],\n        \"inline\": [\n            \"text\",\n            \"newline\",\n            \"escape\",\n            \"backticks\",\n            \"emphasis\",\n            \"link\",\n            \"image\",\n            \"autolink\",\n            \"html_inline\",\n            \"entity\",\n        ],\n        \"inline2\": [\"balance_pairs\", \"emphasis\", \"fragments_join\"],\n    }\n\n\ndef test_override_options():\n    md = MarkdownIt(\"zero\")\n    assert md.options[\"maxNesting\"] == 20\n    md = MarkdownIt(\"zero\", {\"maxNesting\": 99})\n    assert md.options[\"maxNesting\"] == 99\n\n\ndef test_gfm_like2_tasklists_editable():\n    md_default = MarkdownIt(\"gfm-like2\")\n    assert md_default.options[\"tasklists_editable\"] is False\n    assert (\n        '<input class=\"task-list-item-checkbox\" disabled=\"\" type=\"checkbox\" checked=\"\">'\n        in md_default.render(\"- [x] done\")\n    )\n\n    md_editable = MarkdownIt(\"gfm-like2\", {\"tasklists_editable\": True})\n    assert md_editable.options[\"tasklists_editable\"] is True\n    assert (\n        '<input class=\"task-list-item-checkbox\" type=\"checkbox\" checked=\"\">'\n        in md_editable.render(\"- [x] done\")\n    )\n\n\ndef test_gfm_like2_alert_token_map():\n    md = MarkdownIt(\"gfm-like2\")\n    tokens = md.parse(\"> [!NOTE]\\n> body\")\n    assert tokens[0].type == \"alert_open\"\n    assert tokens[0].map == [0, 2]\n\n\ndef test_enable():\n    md = MarkdownIt(\"zero\").enable(\"heading\")\n    assert md.get_active_rules() == {\n        \"block\": [\"heading\", \"paragraph\"],\n        \"core\": [\"normalize\", \"block\", \"inline\", \"text_join\"],\n        \"inline\": [\"text\"],\n        \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n    }\n    md.enable([\"backticks\", \"autolink\"])\n    assert md.get_active_rules() == {\n        \"block\": [\"heading\", \"paragraph\"],\n        \"core\": [\"normalize\", \"block\", \"inline\", \"text_join\"],\n        \"inline\": [\"text\", \"backticks\", \"autolink\"],\n        \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n    }\n\n\ndef test_disable():\n    md = MarkdownIt(\"zero\").disable(\"inline\")\n    assert md.get_active_rules() == {\n        \"block\": [\"paragraph\"],\n        \"core\": [\"normalize\", \"block\", \"text_join\"],\n        \"inline\": [\"text\"],\n        \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n    }\n    md.disable([\"text\"])\n    assert md.get_active_rules() == {\n        \"block\": [\"paragraph\"],\n        \"core\": [\"normalize\", \"block\", \"text_join\"],\n        \"inline\": [],\n        \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n    }\n\n\ndef test_reset():\n    md = MarkdownIt(\"zero\")\n    with md.reset_rules():\n        md.disable(\"inline\")\n        assert md.get_active_rules() == {\n            \"block\": [\"paragraph\"],\n            \"core\": [\"normalize\", \"block\", \"text_join\"],\n            \"inline\": [\"text\"],\n            \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n        }\n    assert md.get_active_rules() == {\n        \"block\": [\"paragraph\"],\n        \"core\": [\"normalize\", \"block\", \"inline\", \"text_join\"],\n        \"inline\": [\"text\"],\n        \"inline2\": [\"balance_pairs\", \"fragments_join\"],\n    }\n\n\ndef test_parseInline():\n    md = MarkdownIt()\n    tokens = md.parseInline(\"abc\\n\\n> xyz\")\n    assert tokens == [\n        Token(\n            type=\"inline\",\n            tag=\"\",\n            nesting=0,\n            attrs={},\n            map=[0, 1],\n            level=0,\n            children=[\n                Token(\n                    type=\"text\",\n                    tag=\"\",\n                    nesting=0,\n                    attrs={},\n                    map=None,\n                    level=0,\n                    children=None,\n                    content=\"abc\",\n                    markup=\"\",\n                    info=\"\",\n                    meta={},\n                    block=False,\n                    hidden=False,\n                ),\n                Token(\n                    type=\"softbreak\",\n                    tag=\"br\",\n                    nesting=0,\n                    attrs={},\n                    map=None,\n                    level=0,\n                    children=None,\n                    content=\"\",\n                    markup=\"\",\n                    info=\"\",\n                    meta={},\n                    block=False,\n                    hidden=False,\n                ),\n                Token(\n                    type=\"softbreak\",\n                    tag=\"br\",\n                    nesting=0,\n                    attrs={},\n                    map=None,\n                    level=0,\n                    children=None,\n                    content=\"\",\n                    markup=\"\",\n                    info=\"\",\n                    meta={},\n                    block=False,\n                    hidden=False,\n                ),\n                Token(\n                    type=\"text\",\n                    tag=\"\",\n                    nesting=0,\n                    attrs={},\n                    map=None,\n                    level=0,\n                    children=None,\n                    content=\"> xyz\",\n                    markup=\"\",\n                    info=\"\",\n                    meta={},\n                    block=False,\n                    hidden=False,\n                ),\n            ],\n            content=\"abc\\n\\n> xyz\",\n            markup=\"\",\n            info=\"\",\n            meta={},\n            block=False,\n            hidden=False,\n        )\n    ]\n\n\ndef test_renderInline():\n    md = MarkdownIt(\"zero\")\n    tokens = md.renderInline(\"abc\\n\\n*xyz*\")\n    assert tokens == \"abc\\n\\n*xyz*\"\n\n\ndef test_emptyStr():\n    md = MarkdownIt()\n    tokens = md.parseInline(\"\")\n    assert tokens == [\n        Token(\n            type=\"inline\",\n            tag=\"\",\n            nesting=0,\n            attrs={},\n            map=[0, 1],\n            level=0,\n            children=[],\n            content=\"\",\n            markup=\"\",\n            info=\"\",\n            meta={},\n            block=False,\n            hidden=False,\n        )\n    ]\n\n\ndef test_empty_env():\n    \"\"\"Test that an empty `env` is mutated, not copied and mutated.\"\"\"\n    md = MarkdownIt()\n\n    env = {}  # type: ignore\n    md.render(\"[foo]: /url\\n[foo]\", env)\n    assert \"references\" in env\n\n    env = {}\n    md.parse(\"[foo]: /url\\n[foo]\", env)\n    assert \"references\" in env\n\n\ndef test_table_tokens(data_regression):\n    md = MarkdownIt(\"js-default\")\n    tokens = md.parse(\n        \"\"\"\n| Heading 1 | Heading 2\n| --------- | ---------\n| Cell 1    | Cell 2\n| Cell 3    | Cell 4\n    \"\"\"\n    )\n    data_regression.check([t.as_dict() for t in tokens])\n\n\ndef test_fragments_join_merges_adjacent_text_tokens():\n    \"\"\"fragments_join should merge runs of adjacent text tokens into one.\n\n    Underscore characters flanked by word characters (e.g. ``a_b``) are not\n    valid emphasis delimiters in CommonMark, so the emphasis rule leaves each\n    ``_`` as a plain text token adjacent to the surrounding text tokens,\n    giving a run of five tokens: text(\"a\"), text(\"_\"), text(\"b c\"),\n    text(\"_\"), text(\"d\").\n\n    Note: there is also a core-level ``text_join`` rule that collapses adjacent\n    text tokens as a fallback.  We disable it here so that the assertions are\n    sensitive only to ``fragments_join``.\n    \"\"\"\n    src = \"a_b c_d\"\n\n    # --- both rules disabled: five separate text tokens must survive ---\n    md_both_off = MarkdownIt()\n    md_both_off.disable([\"text_join\", \"fragments_join\"])\n    children_both_off = md_both_off.parseInline(src)[0].children\n    assert children_both_off is not None\n    assert len(children_both_off) > 1, \"expected multiple text tokens with no merging\"\n    assert all(t.type == \"text\" for t in children_both_off)\n\n    # --- only fragments_join enabled (text_join still off): run must collapse ---\n    md_fj_on = MarkdownIt()\n    md_fj_on.disable(\"text_join\")\n    children_fj_on = md_fj_on.parseInline(src)[0].children\n    assert children_fj_on is not None\n    assert len(children_fj_on) == 1\n    assert children_fj_on[0].type == \"text\"\n    assert children_fj_on[0].content == \"a_b c_d\"\n\n\ndef test_text_join_merges_adjacent_text_special_tokens():\n    \"\"\"text_join should convert text_special tokens and merge runs into one.\n\n    Backslash-escaped characters each produce a ``text_special`` token.\n    ``fragments_join`` only merges ``text`` tokens, so a run of\n    ``text_special`` tokens passes through it untouched.  ``text_join``\n    must then convert them to ``text`` and collapse the run in a single\n    pass rather than via pairwise concatenation.\n    \"\"\"\n    # Three consecutive backslash escapes → three text_special tokens before\n    # text_join runs.\n    src = r\"\\*\\*\\*\"\n\n    # --- text_join disabled: three text_special tokens must survive ---\n    md_off = MarkdownIt()\n    md_off.disable(\"text_join\")\n    children_off = md_off.parseInline(src)[0].children\n    assert children_off is not None\n    assert len(children_off) > 1, \"expected multiple text_special tokens before merging\"\n    assert all(t.type == \"text_special\" for t in children_off)\n\n    # --- text_join enabled (default): must collapse to a single text token ---\n    md_on = MarkdownIt()\n    children_on = md_on.parseInline(src)[0].children\n    assert children_on is not None\n    assert len(children_on) == 1\n    assert children_on[0].type == \"text\"\n    assert children_on[0].content == \"***\"\n"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/pyproject.toml",
+      "status": "ok",
+      "blob_sha": "34d54fced257982c6e1b61552fe9f0bb4df7df92",
+      "bytes": 2875,
+      "content": "[build-system]\nrequires = [\"flit_core >=3.4,<4\"]\nbuild-backend = \"flit_core.buildapi\"\n\n[project]\nname = \"markdown-it-py\"\ndynamic = [\"version\"]\ndescription = \"Python port of markdown-it. Markdown parsing, done right!\"\nreadme = \"README.md\"\nauthors = [{name = \"Chris Sewell\", email = \"chrisj_sewell@hotmail.com\"}]\nlicense = {file = \"LICENSE\"}\nclassifiers = [\n    \"Development Status :: 5 - Production/Stable\",\n    \"Intended Audience :: Developers\",\n    \"License :: OSI Approved :: MIT License\",\n    \"Programming Language :: Python :: 3\",\n    \"Programming Language :: Python :: 3.10\",\n    \"Programming Language :: Python :: 3.11\",\n    \"Programming Language :: Python :: 3.12\",\n    \"Programming Language :: Python :: 3.13\",\n    \"Programming Language :: Python :: Implementation :: CPython\",\n    \"Programming Language :: Python :: Implementation :: PyPy\",\n    \"Topic :: Software Development :: Libraries :: Python Modules\",\n    \"Topic :: Text Processing :: Markup\",\n]\nkeywords = [\"markdown\", \"lexer\", \"parser\", \"commonmark\", \"markdown-it\"]\nrequires-python = \">=3.10\"\ndependencies = [\n    \"mdurl~=0.1\",\n]\n\n[project.urls]\nHomepage = \"https://github.com/executablebooks/markdown-it-py\"\nDocumentation = \"https://markdown-it-py.readthedocs.io\"\n\n[project.optional-dependencies]\ncompare = [\n    \"commonmark~=0.9\",\n    \"markdown~=3.4\",\n    \"mistletoe~=1.0\",\n    \"mistune~=3.0\",\n    \"panflute~=2.3\",\n    \"markdown-it-pyrs\",\n]\nlinkify = [\"linkify-it-py>=1,<3\"]\nplugins = [\"mdit-py-plugins>=0.5.0\"]\nrtd = [\n    \"mdit-py-plugins>=0.5.0\",\n    \"myst-parser\",\n    \"pyyaml\",\n    \"sphinx\",\n    \"sphinx-copybutton\",\n    \"sphinx-design\",\n    \"sphinx-book-theme~=1.0\",\n    \"jupyter_sphinx\",\n    \"ipykernel\",\n]\ntesting = [\n    \"coverage\",\n    \"pytest\",\n    \"pytest-cov\",\n    \"pytest-regressions\",\n    \"pytest-timeout\",\n    \"requests\",\n]\nbenchmarking = [\n    \"psutil\",\n    \"pytest\",\n    \"pytest-benchmark\",\n]\nprofiling = [\"gprof2dot\"]\n\n[dependency-groups]\npre_commit = [\"pre-commit\"]\nmypy = [\"mypy\", \"mdurl\", \"typing-extensions\"]\n\n[project.scripts]\nmarkdown-it = \"markdown_it.cli.parse:main\"\n\n[tool.flit.module]\nname = \"markdown_it\"\n\n[tool.flit.sdist]\nexclude = [\n    \"docs/\",\n    \"tests/\",\n    \"benchmarking/\"\n]\n\n[tool.ruff.lint]\nextend-select = [\"B0\", \"C4\", \"I\", \"ICN\", \"ISC\", \"N\", \"RUF\", \"SIM\", \"UP\"]\nextend-ignore = [\"ISC001\", \"ISC003\", \"N802\", \"N803\", \"N806\", \"N816\", \"RUF003\"]\n\n[tool.ruff.lint.isort]\nforce-sort-within-sections = true\n\n[tool.mypy]\nshow_error_codes = true\nwarn_unused_ignores = true\nwarn_redundant_casts = true\nstrict = true\n\n[[tool.mypy.overrides]]\nmodule = [\"tests.*\"]\ndisallow_untyped_calls = false\ndisallow_untyped_defs = false\n\n[[tool.mypy.overrides]]\nmodule = [\"tests.test_plugins.*\", \"markdown.*\"]\nignore_errors = true\n\n[[tool.mypy.overrides]]\nmodule = [\"markdown.*\", \"linkify_it.*\"]\nignore_missing_imports = true\n\n[tool.pytest.ini_options]\nxfail_strict = true\ntimeout = 10\n"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/LICENSE",
+      "status": "ok",
+      "blob_sha": "582ddf59e08277fe6e78cee924d2c84805fe36fe",
+      "bytes": 1078,
+      "content": "MIT License\n\nCopyright (c) 2020 ExecutableBookProject\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "path": "LICENSE.markdown-it",
+      "url": "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/LICENSE.markdown-it",
+      "status": "ok",
+      "blob_sha": "7ffa058cb78f8fb9beb974d9fd429004d2d2e585",
+      "bytes": 1073,
+      "content": "Copyright (c) 2014 Vitaly Puzrin, Alex Kocharin.\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the \"Software\"), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n"
+    }
+  ],
+  "limitations": [
+    "Untrusted text; not executed. Issues, releases, license compatibility, and integration remain to be assessed."
+  ]
+}

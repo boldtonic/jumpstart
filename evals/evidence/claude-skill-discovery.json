@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-28T12:53:34.906809+00:00",
+  "cli_version": "2.1.109",
+  "method": "official SDK initialize control protocol, no user prompt",
+  "user_messages_sent": 0,
+  "status": "passed",
+  "messages_seen": [
+    {
+      "type": "control_response",
+      "subtype": null
+    }
+  ],
+  "stderr_line_count": 0,
+  "control_status": "success",
+  "command_count": 53,
+  "jumpstart_matches": [
+    {
+      "name": "jumpstart",
+      "description": "Jump-start a new or existing product with open source. Read project context, discover and vet repositories, propose a CTO-style menu of components and combinations, then selectively simplify, integrate, test, and credit the chosen pieces. Use when the user wants open-source foundations, reusable implementations, or alternatives to building a substantial feature from scratch. (user)",
+      "argumentHint": ""
+    }
+  ],
+  "initialization_fields": [
+    "account",
+    "agents",
+    "available_output_styles",
+    "commands",
+    "models",
+    "output_style",
+    "pid"
+  ],
+  "exit_code_after_cleanup": 143,
+  "elapsed_seconds": 0.242
+}

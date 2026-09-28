@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "kind": "snapshot",
+  "retrieved_at": "2026-09-25T16:08:11.349389+00:00",
+  "status": "ok",
+  "repository": "messense/nh3",
+  "requested_ref": "main",
+  "revision": "5910b4c1ecbe9ccb53c0b94018d265cad5c80d06",
+  "commit_date": "2026-09-21T23:29:28Z",
+  "metadata": {
+    "html_url": "https://github.com/messense/nh3",
+    "description": "Python binding to Ammonia HTML sanitizer Rust crate",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-21T23:29:30Z",
+    "stargazers_count": 394
+  },
+  "tree_truncated": false,
+  "tree": [
+    {
+      "path": ".github",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 17
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 9981
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 652
+    },
+    {
+      "path": ".readthedocs.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 316
+    },
+    {
+      "path": "Cargo.lock",
+      "type": "blob",
+      "mode": "100644",
+      "size": 19916
+    },
+    {
+      "path": "Cargo.toml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 499
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1086
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1397
+    },
+    {
+      "path": "docs",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "docs/Makefile",
+      "type": "blob",
+      "mode": "100644",
+      "size": 634
+    },
+    {
+      "path": "docs/conf.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1837
+    },
+    {
+      "path": "docs/index.rst",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2021
+    },
+    {
+      "path": "docs/make.bat",
+      "type": "blob",
+      "mode": "100644",
+      "size": 800
+    },
+    {
+      "path": "docs/requirements.txt",
+      "type": "blob",
+      "mode": "100644",
+      "size": 15
+    },
+    {
+      "path": "nh3.pyi",
+      "type": "blob",
+      "mode": "100644",
+      "size": 2535
+    },
+    {
+      "path": "pyproject.toml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 729
+    },
+    {
+      "path": "src",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "src/lib.rs",
+      "type": "blob",
+      "mode": "100644",
+      "size": 37846
+    },
+    {
+      "path": "tests",
+      "type": "tree",
+      "mode": "040000",
+      "size": null
+    },
+    {
+      "path": "tests/test_doctests.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 532
+    },
+    {
+      "path": "tests/test_nh3.py",
+      "type": "blob",
+      "mode": "100644",
+      "size": 14465
+    }
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/messense/nh3/blob/5910b4c1ecbe9ccb53c0b94018d265cad5c80d06/LICENSE",
+      "status": "ok",
+      "blob_sha": "173cc46bab8e3a33a12b334d2b3393e29973c0bb",
+      "bytes": 1086,
+      "content": "The MIT License (MIT)\n\nCopyright (c) 2021-present Messense Lv\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/messense/nh3/blob/5910b4c1ecbe9ccb53c0b94018d265cad5c80d06/README.md",
+      "status": "ok",
+      "blob_sha": "8b396677acba7d61559b8760162d69ae26a9b5fa",
+      "bytes": 1397,
+      "content": "# nh3\n\n![CI](https://github.com/messense/nh3/workflows/CI/badge.svg)\n[![PyPI](https://img.shields.io/pypi/v/nh3.svg)](https://pypi.org/project/nh3)\n[![Documentation Status](https://readthedocs.org/projects/nh3/badge/?version=latest)](https://nh3.readthedocs.io/en/latest/?badge=latest)\n\nPython bindings to the [ammonia](https://github.com/rust-ammonia/ammonia) HTML sanitization library.\n\n## Installation\n\n```bash\npip install nh3\n```\n\n## Usage\n\nSee [the documentation](https://nh3.readthedocs.io/en/latest/).\n\n## Performance\n\nA quick benchmark showing that nh3 is about 20 times faster than the deprecated [bleach](https://pypi.org/project/bleach/) package.\nMeasured on a MacBook Air (M2, 2022).\n\n```ipython\nPython 3.11.0 (main, Oct 25 2022, 16:25:24) [Clang 14.0.0 (clang-1400.0.29.102)]\nType 'copyright', 'credits' or 'license' for more information\nIPython 8.9.0 -- An enhanced Interactive Python. Type '?' for help.\n\nIn [1]: import requests\n\nIn [2]: import bleach\n\nIn [3]: import nh3\n\nIn [4]: html = requests.get(\"https://www.google.com\").text\n\nIn [5]: %timeit bleach.clean(html)\n2.85 ms ± 22.8 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)\n\nIn [6]: %timeit nh3.clean(html)\n138 µs ± 860 ns per loop (mean ± std. dev. of 7 runs, 10,000 loops each)\n```\n\n## License\n\nThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](./LICENSE) file.\n"
+    }
+  ],
+  "limitations": [
+    "Untrusted text; not executed. Issues, releases, license compatibility, and integration remain to be assessed."
+  ]
+}

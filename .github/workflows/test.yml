@@ -1,0 +1,28 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.11'
+      - name: Install test dependencies
+        run: python -m pip install --only-binary=:all: -r mcp_server/requirements.txt -r examples/markdown_preview/requirements.txt
+      - name: Research and provenance tests
+        run: python -m unittest discover -s tests -v
+      - name: MCP protocol tests
+        run: python -m unittest discover -s mcp_server -p 'test_*.py' -v
+      - name: Integration example
+        working-directory: examples/markdown_preview
+        run: python -m unittest -v test_preview.py
+      - name: Validate example provenance
+        run: python skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict

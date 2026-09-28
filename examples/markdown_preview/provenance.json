@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "project": "Jumpstart Markdown preview composition demo",
+  "components": [
+    {
+      "name": "markdown-it-py",
+      "repository": "https://github.com/executablebooks/markdown-it-py",
+      "revision": "36c5f547144df2d01970a5792d68c71a3380b227",
+      "mode": "dependency",
+      "package": "markdown-it-py",
+      "version": "4.2.0",
+      "role": "Convert Markdown plus embedded HTML into an HTML fragment.",
+      "source_paths": [
+        "markdown_it/main.py",
+        "tests/test_api/test_main.py"
+      ],
+      "target_paths": [
+        "requirements.txt",
+        "preview.py"
+      ],
+      "modifications": [
+        "No upstream code modified; configured public APIs in original adapter code."
+      ],
+      "update_strategy": "Update the pinned package deliberately, resolve the matching release revision, and rerun all composition tests.",
+      "license": {
+        "status": "verified",
+        "expression": "MIT",
+        "evidence_urls": [
+          "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/LICENSE",
+          "https://github.com/executablebooks/markdown-it-py/blob/36c5f547144df2d01970a5792d68c71a3380b227/LICENSE.markdown-it"
+        ],
+        "preserved_files": [
+          "third_party/markdown-it-py/LICENSE",
+          "third_party/markdown-it-py/LICENSE.markdown-it"
+        ],
+        "notes": "Includes the upstream markdown-it notice; mdurl is an installed transitive dependency."
+      }
+    },
+    {
+      "name": "nh3",
+      "repository": "https://github.com/messense/nh3",
+      "revision": "74f36b850c5cb36435b7d9774fe20d1ba3dd663e",
+      "mode": "dependency",
+      "package": "nh3",
+      "version": "0.3.7",
+      "role": "Apply the product allowlist to the parsed HTML fragment.",
+      "source_paths": [
+        "src/lib.rs",
+        "tests/test_nh3.py"
+      ],
+      "target_paths": [
+        "requirements.txt",
+        "preview.py"
+      ],
+      "modifications": [
+        "No upstream code modified; configured public APIs in original adapter code."
+      ],
+      "update_strategy": "Update the pinned package deliberately, resolve the matching release revision, and rerun all composition tests.",
+      "license": {
+        "status": "verified",
+        "expression": "MIT",
+        "evidence_urls": [
+          "https://github.com/messense/nh3/blob/74f36b850c5cb36435b7d9774fe20d1ba3dd663e/LICENSE"
+        ],
+        "preserved_files": [
+          "third_party/nh3/LICENSE"
+        ],
+        "notes": "Python bindings to Ammonia; installed wheel dependencies are not vendored into this example."
+      }
+    }
+  ]
+}

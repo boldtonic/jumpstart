@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jumpstart"
+  short_description: "Build your product with the right open-source foundations"
+  default_prompt: "Use $jumpstart to understand my project, find and assess open-source foundations, and recommend a menu of components and integration plans."
+policy:
+  allow_implicit_invocation: true
