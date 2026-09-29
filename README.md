@@ -1,64 +1,70 @@
 # Jumpstart ↗
 
-**Open-source foundations. Your product.**
+**Vibecode your product with the right open-source foundations.**
 
-Give your coding agent a workflow to find, inspect, combine, integrate, and credit open-source code worth building on.
+![Jumpstart demo: type /jumpstart, compare open-source foundations, then integrate and test the selected pieces](assets/jumpstart.gif)
 
-![Terminal demo: type /jumpstart, compare open-source foundations, then integrate and test the selected pieces](assets/jumpstart.gif)
+[![License: MIT](https://img.shields.io/badge/license-MIT-gold?style=flat-square)](LICENSE)
+[![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757?style=flat-square)](#install)
+[![Codex skill](https://img.shields.io/badge/Codex-skill-10a37f?style=flat-square)](#install)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-8b5cf6?style=flat-square)](https://agentskills.io/specification)
+[![MCP server](https://img.shields.io/badge/MCP-server-6366f1?style=flat-square)](mcp_server/README.md)
+[![X](https://img.shields.io/badge/X-@boldtonic-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/boldtonic)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fernando%20Rullan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ferrullan/)
 
-[Install](#install) · [See the example](#a-real-combination) · [MCP setup](mcp_server/README.md) · [Español](USO.es.md) · [MIT](LICENSE)
+Jumpstart is a skill for your coding agent. Tell it what you're building and it goes looking for open-source projects that already solve the hard parts, reads their actual code, and comes back with a short menu: what to reuse, what to cut, what you still have to write, and how the pieces fit together. Pick a route and your agent builds it, tests it, and credits the people whose work you're building on.
 
-You describe what you are building. Jumpstart reads the available context and code, investigates existing implementations, and returns a small menu of foundations and combinations. Choose a route—or delegate the choice—and your agent helps turn the selected pieces into your product.
+Ask it things like:
 
-Use a whole foundation, selected modules, or complementary parts of several repos. Keep what fits, simplify what does not, write the connections, and credit the people whose work you build on.
+- "/jumpstart I'm building a local-first app for audio interviews. What already exists?"
+- "/jumpstart Read this project and find open-source pieces for document import."
+- "/jumpstart Should we fork this app or compose smaller libraries?"
+- "Integrate option A. Keep our UI, test the whole flow, credit the authors."
+
+No hosted service. No extra API keys. Your agent, your model, public GitHub.
+
+---
 
 ## What you get
 
-- **A recommendation with reasons.** What each repo contributes, what to keep or remove, and how the pieces fit.
-- **Implementation evidence.** Relevant code and boundaries inspected, with documented, inspected, and tested results distinguished.
-- **An integration plan.** Concrete engineering work you can avoid, the code still needed, and the order to build it.
-- **A working integration when you ask for it.** Selected pieces, meaningful tests, pinned sources, and preserved credits.
+- **A short menu, not a pile of links** — two or three routes, what each repo contributes, and what to keep, remove and write yourself
+- **Evidence, not vibes** — code read at pinned commits, with documented, inspected and tested claims kept apart
+- **Honest trade-offs** — the work you avoid, the maintenance you inherit, and the licenses that come with it
+- **A working integration when you ask** — the chosen pieces wired in, tested, pinned and credited
+- **Works where you already work** — Claude Code, Codex and other Agent Skills clients, plus an MCP server for MCP clients
 
-Jumpstart works inside your existing agent. It ships as a portable **Agent Skill** and a companion **MCP server**, sharing the same workflow.
+---
 
 ## Install
 
-From a downloaded or cloned copy of this repository:
-
 ```sh
-npx skills@1.7.0 add . --skill jumpstart --global
+npx skills add boldtonic/jumpstart -g
 ```
 
-The installer lets you choose your agents. It requires Node.js 22.20+. You can also install manually using [the skill ZIP](dist/jumpstart-skill.zip): place the complete `jumpstart` folder in your client's skills directory. For personal Claude Code skills, that is `~/.claude/skills/jumpstart`.
+The installer asks which agents to install for and needs Node.js 22.20+. No Node? Copy the `skills/jumpstart` folder, or unzip [the skill ZIP](dist/jumpstart-skill.zip), into your agent's skills directory. For Claude Code that is `~/.claude/skills/jumpstart`.
 
-The public repository install command will be added when the repository is published. The source and ZIP are currently prepared locally.
-
-| Your environment | Start here |
+| Where | How to use it |
 |---|---|
 | Claude Code | `/jumpstart` followed by your request |
 | Codex | `$jumpstart` followed by your request |
-| Other Agent Skills clients | Install the same skill using the client's discovery mechanism |
-| MCP clients | [Connect Jumpstart](mcp_server/README.md), then ask the agent to use it |
+| Other Agent Skills clients | The client's own skill invocation |
+| MCP clients | [Connect the MCP server](mcp_server/README.md), then ask for Jumpstart |
 
-Open a new session if your agent has not refreshed its skill list. The [compatibility record](evals/PORTABILITY.es.md) states what has actually been tested.
+Open a new session if your agent doesn't list it yet. The [compatibility record](evals/PORTABILITY.es.md) says what has actually been tested. Guía en español: [USO.es.md](USO.es.md).
 
-## Try it in your project
+---
 
-In Claude Code:
+## How it works
 
-```text
-/jumpstart Read this project's context and code. Find open-source pieces
-we could combine. Recommend what to keep, simplify, and integrate.
-```
+1. **Reads your context** — the conversation, project files, stack and constraints.
+2. **Searches** GitHub, and package registries for libraries, with a few focused queries.
+3. **Inspects** the promising candidates at pinned commits: boundaries, dependencies, tests and licenses.
+4. **Hands you a menu** with one recommendation, and stops there until you choose.
+5. **Integrates** the route you pick: smallest working slice first, tests on the connections, provenance and credits recorded.
 
-In Codex, use `$jumpstart` with the same request. If you are starting from an idea, describe the product instead. Jumpstart uses the context it can access and asks only for missing information that changes the recommendation.
+Your agent supplies the model, the context and the coding tools. The research helper uses GitHub CLI (`gh`) and Python 3.9+; the MCP server needs Python 3.10+. Neither calls another model API or runs downloaded code. The MCP server runs locally (stdio or loopback HTTP); web-only clients would need a hosted deployment, which this project doesn't provide.
 
-Then, for example:
-
-```text
-Integrate option A. Keep our current UI, use the selected components,
-verify the complete flow, and preserve upstream credits.
-```
+---
 
 ## A real combination
 
@@ -74,15 +80,9 @@ The [included Markdown previewer](examples/markdown_preview/README.md) combines 
 
 ![The terminal demo concludes with the real adapter, seven passing integration tests and preserved upstream credits](assets/jumpstart-result.png)
 
-**Seven integration tests pass.** The [provenance report](examples/markdown_preview/OPEN_SOURCE_CREDITS.md) records the selected versions and preserved notices. This example demonstrates composition through public APIs; it does not claim extraction of tightly coupled internals from large applications.
+**Seven integration tests pass.** The [provenance report](examples/markdown_preview/OPEN_SOURCE_CREDITS.md) records the selected versions and preserved notices. This example composes libraries through their public APIs; it doesn't claim extraction of tightly coupled internals from large applications. The demo at the top is an edited reconstruction of this tested example: [source and evidence](demo/README.md).
 
-The [40-second terminal demo](assets/jumpstart.mp4) shows the flow: project context → `/jumpstart` → recommendation → integration. It reconstructs the conversation around this tested example; layout, dialogue and timing are edited. The [demo source and captured evidence](demo/README.md) are included.
-
-## What runs where?
-
-Your agent supplies the model, project context, and coding tools. The skill's optional research helper uses **GitHub CLI (`gh`) and Python 3.9+**. The MCP server additionally needs Python 3.10+ and its pinned SDK dependency. Neither helper nor MCP server requires another model API key.
-
-MCP supports local stdio and loopback HTTP. Clients that only connect to remote servers need a hosted deployment; this project does not currently provide one. Research-only clients can produce a menu and plan, while integration requires the host's code editing and execution tools.
+---
 
 ## Development and credits
 
@@ -90,4 +90,4 @@ MCP supports local stdio and loopback HTTP. Clients that only connect to remote 
 
 Original code is [MIT-licensed](LICENSE). Reused material keeps its [upstream notices](THIRD_PARTY_NOTICES.md). Jumpstart records attribution as part of integration, not as an afterthought.
 
-Built by [@boldtonic](https://github.com/boldtonic). If Jumpstart helps you build something, share your example—and consider leaving a star.
+Built by [@boldtonic](https://github.com/boldtonic). If Jumpstart helps you build something, share it, and consider leaving a star.
