@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "kind": "search",
+  "retrieved_at": "2026-09-29T22:06:21.645323+00:00",
+  "status": "ok",
+  "scope": "public, non-archived repositories on github.com",
+  "queries": [
+    {
+      "query": "topic:speaker-diarization topic:transcription",
+      "status": "ok",
+      "returned": 15,
+      "limit": 15,
+      "may_have_more": true
+    },
+    {
+      "query": "speech to text desktop app local privacy diarization",
+      "status": "ok",
+      "returned": 0,
+      "limit": 15,
+      "may_have_more": false
+    },
+    {
+      "query": "noScribe",
+      "status": "ok",
+      "returned": 14,
+      "limit": 15,
+      "may_have_more": false
+    },
+    {
+      "query": "audio transcript editor waveform word timestamps",
+      "status": "ok",
+      "returned": 0,
+      "limit": 15,
+      "may_have_more": false
+    },
+    {
+      "query": "topic:qualitative-research transcription",
+      "status": "ok",
+      "returned": 15,
+      "limit": 15,
+      "may_have_more": true
+    }
+  ],
+  "raw_count": 44,
+  "unique_count": 43,
+  "candidates": [
+    {
+      "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
+      "fullName": "modelscope/FunASR",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-29T06:43:40Z",
+      "stargazersCount": 20549,
+      "updatedAt": "2026-09-29T20:41:58Z",
+      "url": "https://github.com/modelscope/FunASR",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription",
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "A PyTorch-based Speech Toolkit",
+      "fullName": "speechbrain/speechbrain",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-08-27T13:48:19Z",
+      "stargazersCount": 11848,
+      "updatedAt": "2026-09-29T18:52:52Z",
+      "url": "https://github.com/speechbrain/speechbrain",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Real-time, local speech-to-text with streaming ASR, speaker diarization, translation, and OpenAI/Deepgram-compatible APIs.",
+      "fullName": "QuentinFuxa/WhisperLiveKit",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-21T04:36:02Z",
+      "stargazersCount": 11103,
+      "updatedAt": "2026-09-29T18:03:16Z",
+      "url": "https://github.com/QuentinFuxa/WhisperLiveKit",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding ",
+      "fullName": "pyannote/pyannote-audio",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Jupyter Notebook",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-24T16:11:51Z",
+      "stargazersCount": 10604,
+      "updatedAt": "2026-09-29T17:33:52Z",
+      "url": "https://github.com/pyannote/pyannote-audio",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "End-to-End Speech Processing Toolkit",
+      "fullName": "espnet/espnet",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-28T23:56:32Z",
+      "stargazersCount": 9974,
+      "updatedAt": "2026-09-29T02:24:13Z",
+      "url": "https://github.com/espnet/espnet",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "On-device Speech AI for Apple Silicon",
+      "fullName": "argmaxinc/argmax-oss-swift",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Swift",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-24T23:35:24Z",
+      "stargazersCount": 6385,
+      "updatedAt": "2026-09-29T13:52:29Z",
+      "url": "https://github.com/argmaxinc/argmax-oss-swift",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper",
+      "fullName": "MahmoudAshraf97/whisper-diarization",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Jupyter Notebook",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2026-08-15T09:11:27Z",
+      "stargazersCount": 5659,
+      "updatedAt": "2026-09-28T17:08:52Z",
+      "url": "https://github.com/MahmoudAshraf97/whisper-diarization",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Whisper & Faster-Whisper standalone executables for those who don't want to bother with Python. ",
+      "fullName": "Purfview/whisper-standalone-win",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-11-07T19:21:55Z",
+      "stargazersCount": 3196,
+      "updatedAt": "2026-09-29T18:33:58Z",
+      "url": "https://github.com/Purfview/whisper-standalone-win",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "A Repository for Single- and Multi-modal Speaker Verification, Speaker Recognition and Speaker Diarization",
+      "fullName": "modelscope/3D-Speaker",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2025-12-08T07:20:17Z",
+      "stargazersCount": 3158,
+      "updatedAt": "2026-09-29T15:22:52Z",
+      "url": "https://github.com/modelscope/3D-Speaker",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Frontier CoreML audio models in your apps — text-to-speech, speech-to-text, voice activity detection, and speaker diarization. In Swift, powered by SOTA open source. ",
+      "fullName": "FluidInference/FluidAudio",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Swift",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-26T13:04:03Z",
+      "stargazersCount": 2930,
+      "updatedAt": "2026-09-29T21:58:16Z",
+      "url": "https://github.com/FluidInference/FluidAudio",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence",
+      "fullName": "linto-ai/whisper-timestamped",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "pushedAt": "2026-09-28T09:57:17Z",
+      "stargazersCount": 2851,
+      "updatedAt": "2026-09-29T20:05:16Z",
+      "url": "https://github.com/linto-ai/whisper-timestamped",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "A 0.9B model for long-form transcription in 50+ languages with speaker diarization, timestamps, and acoustic event awareness",
+      "fullName": "OpenMOSS/MOSS-Transcribe-Diarize",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-15T08:09:36Z",
+      "stargazersCount": 2092,
+      "updatedAt": "2026-09-29T14:47:50Z",
+      "url": "https://github.com/OpenMOSS/MOSS-Transcribe-Diarize",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "A python package to build AI-powered real-time audio applications",
+      "fullName": "juanmc2005/diart",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-06-19T22:36:53Z",
+      "stargazersCount": 2034,
+      "updatedAt": "2026-09-29T06:49:38Z",
+      "url": "https://github.com/juanmc2005/diart",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "A curated list of awesome Speaker Diarization papers, libraries, datasets, and other resources.",
+      "fullName": "wq2012/awesome-diarization",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-16T20:12:39Z",
+      "stargazersCount": 1905,
+      "updatedAt": "2026-09-26T19:43:38Z",
+      "url": "https://github.com/wq2012/awesome-diarization",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Fun-ASR speech recognition models, with native Hugging Face Transformers support for Fun-ASR-Nano and separate FunASR, vLLM and llama.cpp deployment paths.",
+      "fullName": "QwenAudio/Fun-ASR",
+      "isArchived": false,
+      "isFork": false,
+      "language": "C",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-10T11:04:44Z",
+      "stargazersCount": 1553,
+      "updatedAt": "2026-09-29T02:35:29Z",
+      "url": "https://github.com/QwenAudio/Fun-ASR",
+      "matched_queries": [
+        "topic:speaker-diarization topic:transcription"
+      ]
+    },
+    {
+      "description": "Cutting edge AI technology for automated audio transcription. A nice GUI for OpenAIs Whisper and pyannote (speaker identification)",
+      "fullName": "kaixxx/noScribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-09-29T12:45:35Z",
+      "stargazersCount": 2178,
+      "updatedAt": "2026-09-29T18:23:50Z",
+      "url": "https://github.com/kaixxx/noScribe",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "kaixxx/noScribeEditor",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-08-28T11:43:50Z",
+      "stargazersCount": 29,
+      "updatedAt": "2026-08-28T11:44:31Z",
+      "url": "https://github.com/kaixxx/noScribeEditor",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "Faster Whisper integration with noScribe for German speech recognition",
+      "fullName": "nomansharif031/My_Project_faster-whisper-noscribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-09-06T01:21:59Z",
+      "stargazersCount": 2,
+      "updatedAt": "2026-02-27T22:33:34Z",
+      "url": "https://github.com/nomansharif031/My_Project_faster-whisper-noscribe",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "Website for my Transcription App noScribe",
+      "fullName": "kaixxx/noScribe-website",
+      "isArchived": false,
+      "isFork": false,
+      "language": "HTML",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-08-25T11:25:22Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-08-25T11:27:26Z",
+      "url": "https://github.com/kaixxx/noScribe-website",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "Cutting edge AI technology for automated audio transcription. A nice GUI for OpenAIs Whisper and pyannote (speaker identification)",
+      "fullName": "phyrexia/noScribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-09-06T10:49:13Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-05-22T11:12:08Z",
+      "url": "https://github.com/phyrexia/noScribe",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "jedeth/noscribe-web",
+      "isArchived": false,
+      "isFork": false,
+      "language": "HTML",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-10-10T08:24:49Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-10-03T14:47:44Z",
+      "url": "https://github.com/jedeth/noscribe-web",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "Cutting edge AI technology for automated audio transcription. A nice GUI for OpenAIs Whisper and pyannote (speaker identification)",
+      "fullName": "suxyu/noScribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2025-09-09T19:12:23Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-02-27T22:32:46Z",
+      "url": "https://github.com/suxyu/noScribe",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "Bilind5/noscribe-transcription-extractor",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-09-11T20:56:17Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-09-11T20:56:20Z",
+      "url": "https://github.com/Bilind5/noscribe-transcription-extractor",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "jluukkonen/noScribe_Excel-Visualisation",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-02-25T16:41:36Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-02-25T16:43:05Z",
+      "url": "https://github.com/jluukkonen/noScribe_Excel-Visualisation",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "noScribeEditor – NN-Edition: MAXQDA-artiger Transkript-Editor (Klick-und-Play, Wellenform, Limiter, Abkürzungen)",
+      "fullName": "Haertes/noScribeEditor-NN",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-08-19T13:57:57Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-08-19T14:19:30Z",
+      "url": "https://github.com/Haertes/noScribeEditor-NN",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "nomansharif031/faster-whisper-noscribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-09-06T01:02:51Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-02-27T22:33:25Z",
+      "url": "https://github.com/nomansharif031/faster-whisper-noscribe",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "noScribe – NN-Edition: KI-Transkription mit MAXQDA-artigem Editor (bearbeitete Version von NN & Claude)",
+      "fullName": "Haertes/noScribe-NN",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-08-19T17:41:28Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-08-19T17:36:20Z",
+      "url": "https://github.com/Haertes/noScribe-NN",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "krissi15/noScribe_own",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-08-24T12:53:54Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-08-24T12:48:25Z",
+      "url": "https://github.com/krissi15/noScribe_own",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "nomansharif031/IngoSiegert_faster-whisper-noscribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-09-06T01:08:33Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-09-06T01:08:33Z",
+      "url": "https://github.com/nomansharif031/IngoSiegert_faster-whisper-noscribe",
+      "matched_queries": [
+        "noScribe"
+      ]
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "fullName": "debpalash/VoiceStudio",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "pushedAt": "2026-09-29T15:45:28Z",
+      "stargazersCount": 47882,
+      "updatedAt": "2026-09-29T22:06:08Z",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "fullName": "Zackriya-Solutions/meetily",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Rust",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-15T18:32:32Z",
+      "stargazersCount": 31246,
+      "updatedAt": "2026-09-29T21:50:47Z",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "fullName": "BasedHardware/omi",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-29T21:24:45Z",
+      "stargazersCount": 13614,
+      "updatedAt": "2026-09-29T21:04:51Z",
+      "url": "https://github.com/BasedHardware/omi",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
+      "fullName": "abus-aikorea/voice-pro",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-07-13T01:28:10Z",
+      "stargazersCount": 12961,
+      "updatedAt": "2026-09-29T19:09:49Z",
+      "url": "https://github.com/abus-aikorea/voice-pro",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Open-source SenseVoiceSmall model for Mandarin, Cantonese, English, Japanese, and Korean ASR, language ID, emotion recognition, and audio event detection.",
+      "fullName": "QwenAudio/SenseVoice",
+      "isArchived": false,
+      "isFork": false,
+      "language": "C",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-22T06:07:35Z",
+      "stargazersCount": 9410,
+      "updatedAt": "2026-09-29T21:13:23Z",
+      "url": "https://github.com/QwenAudio/SenseVoice",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+      "fullName": "modelscope/FunClip",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-16T02:01:36Z",
+      "stargazersCount": 6355,
+      "updatedAt": "2026-09-29T19:11:19Z",
+      "url": "https://github.com/modelscope/FunClip",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "A lightweight yet powerful audio-to-MIDI converter with pitch bend detection",
+      "fullName": "spotify/basic-pitch",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2025-11-13T14:40:46Z",
+      "stargazersCount": 5649,
+      "updatedAt": "2026-09-29T20:14:33Z",
+      "url": "https://github.com/spotify/basic-pitch",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "On-device subtitle generation that connects directly to DaVinci Resolve, Premiere, and After Effects.",
+      "fullName": "tmoroney/auto-subs",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-29T19:42:30Z",
+      "stargazersCount": 4294,
+      "updatedAt": "2026-09-29T20:43:17Z",
+      "url": "https://github.com/tmoroney/auto-subs",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "",
+      "fullName": "speaches-ai/speaches",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-29T17:48:06Z",
+      "stargazersCount": 3691,
+      "updatedAt": "2026-09-29T15:47:48Z",
+      "url": "https://github.com/speaches-ai/speaches",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Transcribe any audio to text, translate and edit subtitles 100% locally with a web UI. Powered by whisper models!",
+      "fullName": "pluja/whishper",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Svelte",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "pushedAt": "2026-07-31T09:26:59Z",
+      "stargazersCount": 3078,
+      "updatedAt": "2026-09-29T21:15:29Z",
+      "url": "https://github.com/pluja/whishper",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Self-hosted AI audio transcription",
+      "fullName": "rishikanthc/Scriberr",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Go",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-20T16:42:33Z",
+      "stargazersCount": 3076,
+      "updatedAt": "2026-09-29T16:07:11Z",
+      "url": "https://github.com/rishikanthc/Scriberr",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Legacy Swift Hex app. Try the Rust rewrite at hex.kitlangton.com; new source at github.com/anomalyco/hex.",
+      "fullName": "kitlangton/Hex",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Swift",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-08-27T03:47:11Z",
+      "stargazersCount": 2901,
+      "updatedAt": "2026-09-29T11:11:14Z",
+      "url": "https://github.com/kitlangton/Hex",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.",
+      "fullName": "Vexa-ai/vexa",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-28T19:17:43Z",
+      "stargazersCount": 2841,
+      "updatedAt": "2026-09-29T18:50:32Z",
+      "url": "https://github.com/Vexa-ai/vexa",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    },
+    {
+      "description": "🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI",
+      "fullName": "sindresorhus/awesome-whisper",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "url": "https://api.github.com/licenses/cc0-1.0"
+      },
+      "pushedAt": "2026-09-17T05:00:10Z",
+      "stargazersCount": 2398,
+      "updatedAt": "2026-09-29T15:46:58Z",
+      "url": "https://github.com/sindresorhus/awesome-whisper",
+      "matched_queries": [
+        "topic:qualitative-research transcription"
+      ]
+    }
+  ],
+  "limitations": [
+    "Bounded search, not exhaustive; metadata is not source validation."
+  ]
+}

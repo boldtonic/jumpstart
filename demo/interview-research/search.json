@@ -1,0 +1,1192 @@
+{
+  "schema_version": 1,
+  "kind": "search",
+  "retrieved_at": "2026-09-29T22:06:04.688397+00:00",
+  "status": "ok",
+  "scope": "public, non-archived repositories on github.com",
+  "queries": [
+    {
+      "query": "interview transcription speaker diarization in:name,description",
+      "status": "ok",
+      "returned": 15,
+      "limit": 15,
+      "may_have_more": true
+    },
+    {
+      "query": "offline transcription desktop whisper in:name,description",
+      "status": "ok",
+      "returned": 15,
+      "limit": 15,
+      "may_have_more": true
+    },
+    {
+      "query": "transcript editor audio sync in:name,description",
+      "status": "ok",
+      "returned": 2,
+      "limit": 15,
+      "may_have_more": false
+    },
+    {
+      "query": "whisper word timestamps diarization in:name,description",
+      "status": "ok",
+      "returned": 15,
+      "limit": 15,
+      "may_have_more": true
+    },
+    {
+      "query": "qualitative research transcription in:name,description",
+      "status": "ok",
+      "returned": 14,
+      "limit": 15,
+      "may_have_more": false
+    }
+  ],
+  "raw_count": 61,
+  "unique_count": 60,
+  "candidates": [
+    {
+      "description": "Diarized interview transcription using WhisperX and pyannote with interactive speaker identification",
+      "fullName": "IlyaZadyabin/transcribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2025-11-02T18:45:41Z",
+      "stargazersCount": 6,
+      "updatedAt": "2026-07-17T15:00:29Z",
+      "url": "https://github.com/IlyaZadyabin/transcribe",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Speech audio (i.e., interview) transcription with Whisper AI and speaker diarization with pyannote.",
+      "fullName": "juhanimerilehto/whisper-ai-interview-transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2024-11-17T18:46:48Z",
+      "stargazersCount": 3,
+      "updatedAt": "2025-09-22T04:09:56Z",
+      "url": "https://github.com/juhanimerilehto/whisper-ai-interview-transcription",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Offline interview transcription for Android — on-device speech recognition with speaker diarization",
+      "fullName": "conwerter1/protocolvoice",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Kotlin",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "pushedAt": "2026-09-08T11:26:18Z",
+      "stargazersCount": 4,
+      "updatedAt": "2026-09-08T11:02:30Z",
+      "url": "https://github.com/conwerter1/protocolvoice",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "A modern React web application that provides AI-powered interview transcription with automatic speaker diarization using Deepgram's speech-to-text API.",
+      "fullName": "data-insider-nyc/interview-transcriber",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-09-27T22:48:12Z",
+      "stargazersCount": 2,
+      "updatedAt": "2026-03-20T21:11:13Z",
+      "url": "https://github.com/data-insider-nyc/interview-transcriber",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Transcription, speaker diarization and interview analysis based on Whisper",
+      "fullName": "mirnyGraf/whisper-interview-analyzer",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-18T14:16:02Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-08-28T17:13:25Z",
+      "url": "https://github.com/mirnyGraf/whisper-interview-analyzer",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Iterative LLM-based improvement for French Clinical Interview Transcription and Speaker Diarization",
+      "fullName": "amarie-research/iterative-llm-clinical-transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-02-16T13:34:31Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-04-08T13:39:17Z",
+      "url": "https://github.com/amarie-research/iterative-llm-clinical-transcription",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "A Flask-based web application that transcribes audio recordings and automatically identifies speakers using Google Speech-to-Text with speaker diarization. It supports multiple audio formats and generates speaker-wise transcripts with timestamps for meetings and interviews.",
+      "fullName": "Manideep1Reddy/Audio-Transcription-with-Speaker-Diarization",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-12-23T21:57:00Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-12-23T21:57:03Z",
+      "url": "https://github.com/Manideep1Reddy/Audio-Transcription-with-Speaker-Diarization",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "An open-source transcription tool for Turkish linguistic interviews using WhisperX and speaker diarization.",
+      "fullName": "bostanberkay/linguistic-interview-transcriber-for-turkish",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-08-11T10:45:42Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-08-11T10:46:01Z",
+      "url": "https://github.com/bostanberkay/linguistic-interview-transcriber-for-turkish",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Speaker diarization and transcription app using Whisper, Pyannote, and LLaMA3 LLM — processes video/audio files to generate labeled transcripts, speaker segments, summaries, and suggested interview questions.",
+      "fullName": "shahjhan99/video-audio-Transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-05-11T18:09:12Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-05-11T18:09:16Z",
+      "url": "https://github.com/shahjhan99/video-audio-Transcription",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Colab-based interview transcription with WhisperX, pyannote diarization, speaker recognition, and Google Drive integration.",
+      "fullName": "playply/transcriber",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-09-22T20:25:20Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-22T20:25:25Z",
+      "url": "https://github.com/playply/transcriber",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Scientific interview transcription with speaker diarization and Lamnek/Krell formatting. Local-first, GPU-accelerated.",
+      "fullName": "hendrikmauro/lamnek",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-06-17T22:07:52Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-06-17T22:07:56Z",
+      "url": "https://github.com/hendrikmauro/lamnek",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Voice Transcription and Diarization pipeline that converts audio into accurate text with speaker labels. Built on Whisper + NeMo with practical audio preprocessing for cleaner results and easier execution, producing ready-to-use HTML and SRT outputs for podcasts, meetings, interviews, and media workflows.",
+      "fullName": "bagushendrawan/voice-transcription-diarization",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2026-03-08T12:48:04Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-03-08T12:48:07Z",
+      "url": "https://github.com/bagushendrawan/voice-transcription-diarization",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Local-first interview recording, whisper transcription with two-channel speaker attribution, and AI debrief. No cloud, no diarization model.",
+      "fullName": "felipebustillo/interview-debrief",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Shell",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-07-31T22:17:25Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-07-31T22:17:31Z",
+      "url": "https://github.com/felipebustillo/interview-debrief",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": " This repository contains a robust, asynchronous Speaker Diarization and Transcription API. It processes audio files   (like meetings or interviews), detects who is speaking when, transcribes the speech, and returns a timeline of text   segmented by speaker.",
+      "fullName": "i-m-akshat/SpeechDiarizationAndRecognition",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-08-16T11:04:03Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-08-16T11:04:44Z",
+      "url": "https://github.com/i-m-akshat/SpeechDiarizationAndRecognition",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "AI-powered transcription & smart analysis. Features Speaker Diarization, Llama 3.3 summaries for meetings, lectures, and interviews. Built with Faster-Whisper & Groq.",
+      "fullName": "mihribandursun/AudioMind_AI",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-05-30T20:02:12Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-05-30T20:02:16Z",
+      "url": "https://github.com/mihribandursun/AudioMind_AI",
+      "matched_queries": [
+        "interview transcription speaker diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Offline macOS meeting transcription that runs in your menu bar, uses Whisper locally, and makes transcripts searchable in Claude Desktop via MCP.",
+      "fullName": "ajayrmk/trnscrb",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-02-19T19:50:48Z",
+      "stargazersCount": 18,
+      "updatedAt": "2026-08-18T10:23:39Z",
+      "url": "https://github.com/ajayrmk/trnscrb",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "A Windows desktop dictation app with offline Whisper transcription, AI refinement, and instant paste.",
+      "fullName": "SadmanMahi67/OpenFlow",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-05-28T18:13:33Z",
+      "stargazersCount": 16,
+      "updatedAt": "2026-09-02T18:10:40Z",
+      "url": "https://github.com/SadmanMahi67/OpenFlow",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Whisper-Desktop - offline speech-to-text with 99% accuracy, 97 languages, and real-time transcription.",
+      "fullName": "honoredwhac/Whisper-Desktop---OpenAI-Whisper-Transcriber-2026",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-08-26T22:27:13Z",
+      "stargazersCount": 8,
+      "updatedAt": "2026-08-31T12:10:31Z",
+      "url": "https://github.com/honoredwhac/Whisper-Desktop---OpenAI-Whisper-Transcriber-2026",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Desktop speech-to-text with global hotkeys and auto-paste: live mic transcription via local Whisper (offline) or Deepgram, file/video transcription, searchable local history, and AI text cleanup. macOS, Windows, Linux.",
+      "fullName": "leoerdman/Voice-Transcriptor",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-17T18:13:48Z",
+      "stargazersCount": 19,
+      "updatedAt": "2026-09-19T22:19:24Z",
+      "url": "https://github.com/leoerdman/Voice-Transcriptor",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Offline batch transcription of Hebrew audio with speaker identification — a free desktop app for Windows and macOS, powered by local Whisper models",
+      "fullName": "yevgeniyglider/HebrewScribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-09T18:13:14Z",
+      "stargazersCount": 6,
+      "updatedAt": "2026-09-09T18:10:52Z",
+      "url": "https://github.com/yevgeniyglider/HebrewScribe",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Offline multilingual audio transcription desktop app.",
+      "fullName": "Dal-ya/Simple-Whisper",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-01-23T08:52:13Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-01-23T08:52:16Z",
+      "url": "https://github.com/Dal-ya/Simple-Whisper",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Local offline desktop app for audio transcription using OpenAI Whisper",
+      "fullName": "inter-bay/WhisperNote",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-01-01T16:33:57Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-01-03T20:49:54Z",
+      "url": "https://github.com/inter-bay/WhisperNote",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Local desktop dictation app with offline Whisper transcription",
+      "fullName": "chrisduvillard/Auralis",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-06-06T18:39:35Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-06-06T18:39:39Z",
+      "url": "https://github.com/chrisduvillard/Auralis",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Offline Whisper transcription for Apple Silicon — Rust core with CoreML + Metal, shipping a CLI, a Tauri desktop app, and Claude Code slash commands.",
+      "fullName": "ThibautBaissac/transcript",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Rust",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-04-23T04:27:19Z",
+      "stargazersCount": 3,
+      "updatedAt": "2026-05-18T20:15:55Z",
+      "url": "https://github.com/ThibautBaissac/transcript",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Offline audio transcription desktop app for Windows — faster-whisper powered, TXT/DOCX output, GPU/CPU auto",
+      "fullName": "iAbduE/whisperdesk",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-08-23T14:12:07Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-08-23T14:22:26Z",
+      "url": "https://github.com/iAbduE/whisperdesk",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Desktop transcription app for qualitative researchers — offline, private, built on Whisper",
+      "fullName": "stvbao/transcriber",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-04-27T05:07:52Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-04-27T05:07:57Z",
+      "url": "https://github.com/stvbao/transcriber",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description",
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "Desktop transcription app using Whisper AI - offline, privacy-first audio/video transcription with unlimited plans starting at $6.99/month",
+      "fullName": "El-apuesto/tattletale-desktop",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-02-05T02:56:31Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-01-11T12:10:35Z",
+      "url": "https://github.com/El-apuesto/tattletale-desktop",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "French voice transcription desktop app - high accuracy, 100% offline (faster-whisper large-v3). Modern PySide6 UI, bilingual EN/FR, 3 themes.",
+      "fullName": "Adrien10200/transcription-vocale-fr",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-18T16:59:04Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-18T16:59:08Z",
+      "url": "https://github.com/Adrien10200/transcription-vocale-fr",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "A Windows 11 desktop GUI app for local audio/video transcription and SRT subtitle generation, powered by faster-whisper and offline CUDA acceleration.",
+      "fullName": "donagapegun/WhisperSrtStudio",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-09-18T14:45:51Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-18T14:45:55Z",
+      "url": "https://github.com/donagapegun/WhisperSrtStudio",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "Linux desktop app (Qt 6 / C++20) for local, offline video-to-text transcription with whisper.cpp — TXT, SRT, VTT, HTML, JSON export.",
+      "fullName": "azzenabidi/WhisperQtTranscriber",
+      "isArchived": false,
+      "isFork": false,
+      "language": "C++",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-25T02:30:57Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-25T02:31:01Z",
+      "url": "https://github.com/azzenabidi/WhisperQtTranscriber",
+      "matched_queries": [
+        "offline transcription desktop whisper in:name,description"
+      ]
+    },
+    {
+      "description": "An AI-powered media transcription platform featuring Arabic-first speech-to-text processing, real-time audio sync, and an interactive transcript editor",
+      "fullName": "Moaz-moo/voiceflow-platform",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-19T16:52:46Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-19T16:52:49Z",
+      "url": "https://github.com/Moaz-moo/voiceflow-platform",
+      "matched_queries": [
+        "transcript editor audio sync in:name,description"
+      ]
+    },
+    {
+      "description": "Video editing software that syncs distinct audio sources and includes an editor to easily select the best take based on the transcript.",
+      "fullName": "AnthonyJustinDuong/AVSyncer",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-06-24T15:36:30Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-06-24T15:38:08Z",
+      "url": "https://github.com/AnthonyJustinDuong/AVSyncer",
+      "matched_queries": [
+        "transcript editor audio sync in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "fullName": "m-bain/whisperX",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2026-09-26T20:53:59Z",
+      "stargazersCount": 24303,
+      "updatedAt": "2026-09-29T18:30:46Z",
+      "url": "https://github.com/m-bain/whisperX",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Dockerfile for WhisperX: Automatic Speech Recognition with Word-Level Timestamps and Speaker Diarization (Dockerfile, CI image build and test)",
+      "fullName": "jim60105/docker-whisperX",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Dockerfile",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-27T03:31:02Z",
+      "stargazersCount": 456,
+      "updatedAt": "2026-09-27T03:31:04Z",
+      "url": "https://github.com/jim60105/docker-whisperX",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization) with Docker Ready and API Server",
+      "fullName": "Azooz-AI/WhisperX-Docker-API",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-06-18T22:41:43Z",
+      "stargazersCount": 11,
+      "updatedAt": "2026-03-06T16:42:26Z",
+      "url": "https://github.com/Azooz-AI/WhisperX-Docker-API",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperDRZ: a Whisper-large-v3 fine-tune that transcribes, diarizes (who said what), predicts word-level timestamps, and tags non-speech events. Inference only.",
+      "fullName": "fluxions-ai/whisperdrz",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-04T00:33:19Z",
+      "stargazersCount": 47,
+      "updatedAt": "2026-09-26T02:30:09Z",
+      "url": "https://github.com/fluxions-ai/whisperdrz",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "End-to-end Speaker Diarization and Transcription system combining Faster-Whisper (ASR), Pyannote (VAD/segmentation), NVIDIA NeMo (speaker embeddings + clustering), and CTC forced aligner for precise word-level timestamps. Includes a React + Vite frontend and Flask + FastAPI backend for easy audio upload, diarized transcripts, and summaries.",
+      "fullName": "ayushdh96/MIE_Diarization",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-12-27T06:16:07Z",
+      "stargazersCount": 5,
+      "updatedAt": "2026-08-29T14:26:01Z",
+      "url": "https://github.com/ayushdh96/MIE_Diarization",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Multilingual automatic speech recognition (ASR) with speaker segmentation (SS) / speaker diarization (SD) and word-level timestamps (WLT)",
+      "fullName": "ishine/whisper-ss",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "pushedAt": "2025-07-07T20:49:22Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-07-08T02:45:18Z",
+      "url": "https://github.com/ishine/whisper-ss",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Multilingual automatic speech recognition (ASR) with speaker segmentation (SS) / speaker diarization (SD) and word-level timestamps (WLT)",
+      "fullName": "urroxyz/whisper",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "pushedAt": "2025-07-07T20:49:22Z",
+      "stargazersCount": 2,
+      "updatedAt": "2026-08-24T22:25:24Z",
+      "url": "https://github.com/urroxyz/whisper",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "fullName": "mahshid1378/WhisperX",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2025-03-29T07:15:33Z",
+      "stargazersCount": 2,
+      "updatedAt": "2026-03-06T16:42:33Z",
+      "url": "https://github.com/mahshid1378/WhisperX",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "100% Free Browser-based Speech-to-Text with exact word-level timestamps, diarization, and WebGPU support. Fully private.",
+      "fullName": "ozguradmin/whisper-web-scribe",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-02-28T19:07:31Z",
+      "stargazersCount": 3,
+      "updatedAt": "2026-09-28T21:24:35Z",
+      "url": "https://github.com/ozguradmin/whisper-web-scribe",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "An OpenClaw skill for WhisperX — speech-to-text with word-level timestamps, speaker diarization, and forced alignment",
+      "fullName": "ThePlasmak/whisperx",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-02-18T15:17:50Z",
+      "stargazersCount": 2,
+      "updatedAt": "2026-04-08T05:25:44Z",
+      "url": "https://github.com/ThePlasmak/whisperx",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "fullName": "hieuvp/whisperX",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2025-10-25T09:04:20Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-03-06T16:42:29Z",
+      "url": "https://github.com/hieuvp/whisperX",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "fullName": "PeterTamer5/whisperX",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2026-03-12T19:11:14Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-03-12T19:29:12Z",
+      "url": "https://github.com/PeterTamer5/whisperX",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "fullName": "ninjaeon/whisperX",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2025-08-11T14:25:38Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-03-06T16:42:37Z",
+      "url": "https://github.com/ninjaeon/whisperX",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "fullName": "to-audiobook/whisperX_progressBar",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "url": "https://api.github.com/licenses/bsd-2-clause"
+      },
+      "pushedAt": "2025-08-12T20:41:33Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-03-06T16:42:44Z",
+      "url": "https://github.com/to-audiobook/whisperX_progressBar",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "Dockerized WhisperX - Fast ASR with word-level timestamps and speaker diarization",
+      "fullName": "lyzetam/whisperx",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-01-07T03:39:34Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-03-06T16:42:40Z",
+      "url": "https://github.com/lyzetam/whisperx",
+      "matched_queries": [
+        "whisper word timestamps diarization in:name,description"
+      ]
+    },
+    {
+      "description": "FR : Script conçu pour la transcription d'entretiens en recherche qualitative. Formats : .txt, .md (Obsidian) et .docx. GPU compatible CUDA nécessaire. EN: Script for transcribing interviews in qualitative research. Outputs: .txt, .md (Obsidian), and .docx. Requires CUDA-compatible GPU.",
+      "fullName": "Iseultsa/Transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "url": ""
+      },
+      "pushedAt": "2025-08-04T21:11:19Z",
+      "stargazersCount": 1,
+      "updatedAt": "2025-08-13T12:40:13Z",
+      "url": "https://github.com/Iseultsa/Transcription",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "Local-first transcription, editing, qualitative coding, and transcript analysis for researchers.",
+      "fullName": "drdiscipulus/transcript_research_studio",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-08-17T20:24:40Z",
+      "stargazersCount": 2,
+      "updatedAt": "2026-09-09T13:48:29Z",
+      "url": "https://github.com/drdiscipulus/transcript_research_studio",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "WhisperX transcription and diarization notebooks for qualitative researchers",
+      "fullName": "mrhallonline/whisperx-research-transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Jupyter Notebook",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "pushedAt": "2026-07-02T22:45:54Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-07-02T22:46:02Z",
+      "url": "https://github.com/mrhallonline/whisperx-research-transcription",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "This repo contains python scripts that utilizes Azure Cognitive Service to aid with transcribing and coding interviews for qualitative research.",
+      "fullName": "ezraundag/ai-rest-api-for-transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-12-27T02:25:22Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-01-22T08:50:03Z",
+      "url": "https://github.com/ezraundag/ai-rest-api-for-transcription",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "A lightweight transcription script using OpenAI Whisper to convert audio interviews into timestamped text. Designed for use in qualitative research and compatible with tools like MAXQDA.",
+      "fullName": "MannnNico/whisper-transcription-tool",
+      "isArchived": false,
+      "isFork": false,
+      "language": "",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2025-04-15T12:59:56Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-03-27T14:09:12Z",
+      "url": "https://github.com/MannnNico/whisper-transcription-tool",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "Free, open-source qualitative research software for coding, transcription, thematic mapping, and collaborative analysis.",
+      "fullName": "Stats-Mat-Bon/E-Qual",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-06T17:16:06Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-09-06T17:16:12Z",
+      "url": "https://github.com/Stats-Mat-Bon/E-Qual",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "Python workflow developed in 2022 to speed up transcription and organization of qualitative research materials.",
+      "fullName": "sabrinaVcorbacho/speech-to-text-tool-python",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-06-08T01:42:15Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-06-23T19:56:49Z",
+      "url": "https://github.com/sabrinaVcorbacho/speech-to-text-tool-python",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "Offline Whisper-based speech-to-text transcription and grammar correction for qualitative research audio (interviews, field notes, dictated manuscript prose)",
+      "fullName": "opsarticaDev/dictation",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-06-12T14:15:47Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-06-12T14:17:04Z",
+      "url": "https://github.com/opsarticaDev/dictation",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "MaxQDA qualitative data analysis software. Powerful tools for coding, transcription, and mixed methods research. Streamline your academic and market research projects with MAXQDA analytics.",
+      "fullName": "MaxQDA-Software/.github",
+      "isArchived": false,
+      "isFork": false,
+      "language": "HTML",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-09-29T12:49:23Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-29T12:49:41Z",
+      "url": "https://github.com/MaxQDA-Software/.github",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "A reusable pipeline for processing timestamped interview transcripts into structured bilingual transcripts for qualitative research. 适访谈转录稿自动校对、修正与双语转译 Skill，支持逐轮对照输出、可配置目标语言及 QA 报告，并支持 MCP 与自动化工作流。",
+      "fullName": "aishuijiaodedatudou/bilingual-interview-transcription",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "pushedAt": "2026-09-20T18:05:29Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-09-20T18:05:33Z",
+      "url": "https://github.com/aishuijiaodedatudou/bilingual-interview-transcription",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "🔍 Browser-based qualitative thematic analysis — batch transcripts, AI auto-coding, audio/video transcription, corpus synthesis, and one-click research reports. Free to start, $10 Pro.",
+      "fullName": "Donmaston09/QualiTheme-v3.4",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Python",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-03-19T22:45:18Z",
+      "stargazersCount": 1,
+      "updatedAt": "2026-04-22T12:25:30Z",
+      "url": "https://github.com/Donmaston09/QualiTheme-v3.4",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "When conducting qualitative research, both the transcription of interviews and the security of the data are crucial. With a local implementation of Whisper, you can transcribe your interviews securely and efficiently to support the development of your research projects.",
+      "fullName": "Stephania1805/Cualitative-Whisper-",
+      "isArchived": false,
+      "isFork": false,
+      "language": "Jupyter Notebook",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2025-06-10T18:19:22Z",
+      "stargazersCount": 0,
+      "updatedAt": "2025-06-10T18:19:26Z",
+      "url": "https://github.com/Stephania1805/Cualitative-Whisper-",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    },
+    {
+      "description": "Research-oriented audio transcription and qualitative analysis platform built with React and Vite. Supports file upload, live recording, Deepgram-based speech-to-text, Azure OpenAI artifact synthesis, long-audio chunking, PDF dossier export, and role-based user workflows.",
+      "fullName": "cwegeai/viveka-ai-version1",
+      "isArchived": false,
+      "isFork": false,
+      "language": "TypeScript",
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "pushedAt": "2026-06-23T13:36:42Z",
+      "stargazersCount": 0,
+      "updatedAt": "2026-06-23T13:37:44Z",
+      "url": "https://github.com/cwegeai/viveka-ai-version1",
+      "matched_queries": [
+        "qualitative research transcription in:name,description"
+      ]
+    }
+  ],
+  "limitations": [
+    "Bounded search, not exhaustive; metadata is not source validation."
+  ]
+}
