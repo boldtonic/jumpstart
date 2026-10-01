@@ -1,4 +1,26 @@
-# Terminal demo
+# Demos
+
+## Launch videos
+
+Three short chat animations built from one real research run: [interview-research/](interview-research/) holds the two GitHub search rounds and the [decision record](interview-research/decision.md) that recommends Scriberr. Research lines and the menu are abridged from that record; the chat apps, the model name "Mosaic 3 Pro", the earlier conversation, typing and timing are invented. Keep the "EDITED DEMO · REAL RESEARCH" label when sharing them.
+
+| Video | Story | Storyboard | Renderer |
+|---|---|---|---|
+| `assets/jumpstart-desktop-command.mp4` | Mid-conversation, the user types `/jumpstart`; the skill card shows its description | `desktop-command.json` | `desktop.cjs` |
+| `assets/jumpstart-desktop-auto.mp4` | The user asks for solid open-source foundations; the agent chooses Jumpstart itself | `desktop-auto.json` | `desktop.cjs` |
+| `assets/jumpstart-launch.mp4` | A plain monochrome chat with a single `/jumpstart` message | `launch.json` | `launch.cjs` |
+
+```sh
+cd demo
+npm install
+node desktop.cjs desktop-command.json
+node desktop.cjs desktop-auto.json
+node launch.cjs
+```
+
+Each run writes a 1920 × 1080 MP4, a 960-pixel README GIF and a poster PNG under `assets/`. Text widths are measured from the rendered glyphs, so wrapping and the cursor follow the installed fonts.
+
+## Terminal demo
 
 A 40-second terminal-chat animation, a looping README GIF and three stills. A developer is building an offline notes app, types `/jumpstart`, gets a recommendation, then asks the agent to integrate it. The camera moves toward the command; the rest happens inside the conversation.
 

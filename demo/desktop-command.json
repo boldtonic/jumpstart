@@ -1,0 +1,56 @@
+{
+  "format": "Authored desktop-chat animation. The app, model name and earlier conversation are invented; research lines and routes are abridged from demo/interview-research/decision.md.",
+  "output": "jumpstart-desktop-command",
+  "duration": 28,
+  "app": "Mosaic",
+  "model": "Mosaic 3 Pro",
+  "title": "Interview research app",
+  "chats": ["Interview research app", "Landing page copy", "Q4 pricing ideas", "Lisbon trip"],
+  "message": {
+    "send": 6.0,
+    "parts": [
+      {"text": "Sounds right. Let's ", "start": 1.9, "end": 2.5},
+      {"text": "/jumpstart", "start": 2.6, "end": 3.1},
+      {"text": " this and see if we can start from a solid open-source base.", "start": 4.3, "end": 5.6}
+    ]
+  },
+  "chip": {"from": 2.65, "to": 4.4},
+  "skill": {"name": "Jumpstart", "description": "Build your product with the right open-source foundations", "tag": "Personal"},
+  "rows": [
+    {"at": -1, "kind": "user", "text": "I want to build a local-first app for audio interviews: searchable transcripts, speaker labels, clips with notes. Nothing leaves the laptop."},
+    {"at": -1, "kind": "prose", "text": "Love it. The hard parts are speaker labels, word-level timing and long recordings on an ordinary laptop. I'd scope v1 to one flow: import an interview, find a passage, save a clip with a note."},
+    {"at": 6.0, "kind": "user", "text": "Sounds right. Let's /jumpstart this and see if we can start from a solid open-source base."},
+    {"at": 6.6, "kind": "skill"},
+    {"at": 7.0, "kind": "activity", "items": [
+      {"at": 7.2, "text": "Searched GitHub · 10 queries · 103 repos"},
+      {"at": 7.9, "text": "Read Scriberr's code at a pinned commit"},
+      {"at": 8.6, "text": "Checked licenses · MIT · GPL-3.0 · BSD-2"}
+    ]},
+    {"at": 9.6, "kind": "heading", "text": "Someone already built most of this.", "type": 0.6},
+    {"at": 10.4, "kind": "prose", "text": "**Scriberr** (MIT) already does offline transcription, speaker labels, click-to-jump and notes pinned to a time range.", "type": 1.5},
+    {"at": 13.4, "kind": "prose", "text": "Three ways to build it:", "type": 0.4},
+    {"at": 14.0, "kind": "list", "letter": "A", "text": "**Extend Scriberr** (recommended). You add search inside transcripts and clip export.", "type": 1.1},
+    {"at": 15.4, "kind": "list", "letter": "B", "text": "**Extend noScribe** (GPL-3.0). Built for interviews; library, search and clips are still yours to build.", "type": 1.2},
+    {"at": 16.9, "kind": "list", "letter": "C", "text": "**Compose WhisperX + pyannote.** Full control, but the whole app is yours to build.", "type": 1.0},
+    {"at": 18.8, "kind": "prose", "text": "I'd start with A. Want me to set it up?", "type": 0.8},
+    {"at": 19.9, "kind": "dim", "text": "Code inspected, nothing installed yet."}
+  ],
+  "camera": [
+    {"t": 0, "zoom": 1, "x": 960, "y": 540},
+    {"t": 1.3, "zoom": 1, "x": 960, "y": 540},
+    {"t": 2.1, "zoom": 1.55, "x": 1110, "y": 880},
+    {"t": 5.8, "zoom": 1.55, "x": 1110, "y": 880},
+    {"t": 6.6, "zoom": 1.2, "x": 1110, "y": 590},
+    {"t": 10.0, "zoom": 1.2, "x": 1110, "y": 590},
+    {"t": 10.8, "zoom": 1.3, "x": 1110, "y": 700},
+    {"t": 12.9, "zoom": 1.3, "x": 1110, "y": 700},
+    {"t": 13.6, "zoom": 1.2, "x": 1110, "y": 590}
+  ],
+  "end": {
+    "at": 22.8,
+    "title": "Jumpstart",
+    "line": "Build your product with the right open-source foundations",
+    "usage": ["/jumpstart in Claude Code", "$jumpstart in Codex"],
+    "url": "github.com/boldtonic/jumpstart"
+  }
+}
