@@ -2,7 +2,9 @@
 
 **Vibecode your product with the right open-source foundations.**
 
-![Jumpstart demo: type /jumpstart, compare open-source foundations, then integrate and test the selected pieces](assets/jumpstart.gif)
+![Jumpstart demo: mid-conversation, the user types /jumpstart, the skill card appears, and the agent comes back with Scriberr and a three-route menu](assets/jumpstart-desktop-command.gif)
+
+<sub>Edited demo: the chat app and model are invented; the research and the menu are real ([decision record](demo/interview-research/decision.md)).</sub>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-gold?style=flat-square)](LICENSE)
 [![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757?style=flat-square)](#install)
@@ -35,6 +37,14 @@ No hosted service. No extra API keys. Your agent, your model, public GitHub.
 
 ---
 
+## Or let your agent reach for it
+
+You don't have to type the command. Say you'd like to start from solid open-source foundations, and an agent with Jumpstart installed can pick it up from its description.
+
+![The user asks to start from solid open-source foundations; the agent chooses Jumpstart on its own and runs the same research](assets/jumpstart-desktop-auto.gif)
+
+---
+
 ## Install
 
 ```sh
@@ -47,6 +57,7 @@ The installer asks which agents to install for and needs Node.js 22.20+. No Node
 |---|---|
 | Claude Code | `/jumpstart` followed by your request |
 | Codex | `$jumpstart` followed by your request |
+| Claude apps | Upload [the skill ZIP](dist/jumpstart-skill.zip) as a custom skill in settings; research uses web search where `gh` isn't available |
 | Other Agent Skills clients | The client's own skill invocation |
 | MCP clients | [Connect the MCP server](mcp_server/README.md), then ask for Jumpstart |
 
@@ -80,7 +91,7 @@ The [included Markdown previewer](examples/markdown_preview/README.md) combines 
 
 ![The terminal demo concludes with the real adapter, seven passing integration tests and preserved upstream credits](assets/jumpstart-result.png)
 
-**Seven integration tests pass.** The [provenance report](examples/markdown_preview/OPEN_SOURCE_CREDITS.md) records the selected versions and preserved notices. This example composes libraries through their public APIs; it doesn't claim extraction of tightly coupled internals from large applications. The demo at the top is an edited reconstruction of this tested example: [source and evidence](demo/README.md).
+**Seven integration tests pass.** The [provenance report](examples/markdown_preview/OPEN_SOURCE_CREDITS.md) records the selected versions and preserved notices. This example composes libraries through their public APIs; it doesn't claim extraction of tightly coupled internals from large applications. The [terminal demo](assets/jumpstart.mp4) is an edited reconstruction of this tested example; all demos are documented in [demo/README.md](demo/README.md).
 
 ---
 
