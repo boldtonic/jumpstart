@@ -56,7 +56,7 @@ npm run render
 
 Outputs:
 
-- `assets/jumpstart.gif`: 960 × 600, looping README demo.
+- `assets/jumpstart.gif`: 720 × 450 at 6 fps, looping, kept under 5 MiB.
 - `assets/jumpstart.mp4`: 1440 × 900, 24 fps, for sharing.
 - `assets/jumpstart-{poster,menu,result}.png`: command close-up, recommendation and tested integration.
 - `assets/jumpstart-poster.svg`: vector version of the command close-up.

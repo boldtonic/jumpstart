@@ -93,7 +93,7 @@ async function main(){
  proc.stdin.end();
  const [code]=await completion;
  if(code!==0)throw new Error(`Video export failed: ${code}`);
- const gif=spawnSync(ffmpeg,['-y','-hide_banner','-loglevel','error','-i',video,'-filter_complex','fps=8,scale=960:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=48:stats_mode=diff[p];[b][p]paletteuse=dither=none:diff_mode=rectangle','-loop','0',path.join(out,'jumpstart.gif')],{stdio:'inherit'});
+ const gif=spawnSync(ffmpeg,['-y','-hide_banner','-loglevel','error','-i',video,'-filter_complex','fps=6,scale=720:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=48:stats_mode=diff[p];[b][p]paletteuse=dither=none:diff_mode=rectangle','-loop','0',path.join(out,'jumpstart.gif')],{stdio:'inherit'});
  if(gif.status!==0)throw new Error('GIF export failed');
  console.log(`Exported ${DURATION}-second terminal chat, README GIF and three stills.`);
 }
