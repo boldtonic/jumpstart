@@ -51,15 +51,15 @@ You don't have to type the command. Say you'd like to start from solid open-sour
 npx skills add boldtonic/jumpstart -g
 ```
 
-The installer asks which agents to install for and needs Node.js 22.20+. No Node? Copy the `skills/jumpstart` folder, or unzip [the skill ZIP](dist/jumpstart-skill.zip), into your agent's skills directory. For Claude Code that is `~/.claude/skills/jumpstart`.
+The installer asks which agents to install for and needs Node.js 22.20+. No Node? Copy the [`plugins/jumpstart/skills/jumpstart`](plugins/jumpstart/skills/jumpstart) folder, or unzip [the skill ZIP](dist/jumpstart-skill.zip), into your agent's skills directory. For Claude Code that is `~/.claude/skills/jumpstart`.
 
-| Where | How to use it |
-|---|---|
-| Claude Code | `/jumpstart` followed by your request |
-| Codex | `$jumpstart` followed by your request |
-| Claude apps | Upload [the skill ZIP](dist/jumpstart-skill.zip) as a custom skill in settings; research uses web search where `gh` isn't available |
-| Other Agent Skills clients | The client's own skill invocation |
-| MCP clients | [Connect the MCP server](mcp_server/README.md), then ask for Jumpstart |
+| Where | Install | Use |
+|---|---|---|
+| Claude Code | `npx skills add`, or as a plugin: `/plugin marketplace add boldtonic/jumpstart` then `/plugin install jumpstart@boldtonic` | `/jumpstart` followed by your request |
+| Codex | `npx skills add`, or `$skill-installer install https://github.com/boldtonic/jumpstart/tree/main/plugins/jumpstart/skills/jumpstart` | `$jumpstart` followed by your request |
+| Claude apps | Upload [the skill ZIP](dist/jumpstart-skill.zip) as a custom skill in settings; research uses web search where `gh` isn't available | Ask for Jumpstart, or let Claude pick it |
+| Other Agent Skills clients | `npx skills add` also covers Cursor, GitHub Copilot, Cline and more | The client's own skill invocation |
+| MCP clients | [Connect the MCP server](mcp_server/README.md) | Ask for Jumpstart |
 
 Open a new session if your agent doesn't list it yet. The [compatibility record](evals/PORTABILITY.es.md) says what has actually been tested. Guía en español: [USO.es.md](USO.es.md).
 

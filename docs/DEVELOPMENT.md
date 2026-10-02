@@ -1,12 +1,12 @@
 # Development
 
-The shared workflow lives in `skills/jumpstart`; the MCP server reads those files directly. Update installed copies after changing the source skill. No demo dependencies are needed to run the skill helpers.
+The shared workflow lives in `plugins/jumpstart/skills/jumpstart`; the MCP server reads those files directly. Update installed copies after changing the source skill. No demo dependencies are needed to run the skill helpers.
 
 ## Checks
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
+python3 plugins/jumpstart/skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
 ```
 
 Follow the [MCP setup](../mcp_server/README.md) and [example setup](../examples/markdown_preview/README.md) for their respective tests. GitHub Actions runs all 40 tests and the provenance check.
@@ -14,7 +14,7 @@ Follow the [MCP setup](../mcp_server/README.md) and [example setup](../examples/
 ## Research helpers
 
 ```sh
-python3 skills/jumpstart/scripts/github_research.py search \
+python3 plugins/jumpstart/skills/jumpstart/scripts/github_research.py search \
   --query 'epub parser in:name,description' --limit 10 --out /tmp/epub-search.json
 ```
 
@@ -22,4 +22,4 @@ Requires authenticated `gh` with network access. Research artifacts are never si
 
 Jumpstart separates documented claims, inspected implementations, and tested integrations. Potential time or token savings must not be presented as measurements. The provenance validator checks recorded structure and files; it does not certify licensing conclusions.
 
-The [demo renderer](../demo/README.md) is optional presentation tooling. The skill ZIP contains only `skills/jumpstart`; the MCP ZIP contains the source distribution. Neither bundles virtual environments, credentials, or development dependencies.
+The [demo renderer](../demo/README.md) is optional presentation tooling. The skill ZIP contains only the skill folder (`plugins/jumpstart/skills/jumpstart`), without virtual environments, credentials, or development dependencies. For the MCP server, clone the repository or use GitHub's source download.

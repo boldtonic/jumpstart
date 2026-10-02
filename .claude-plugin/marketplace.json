@@ -1,0 +1,17 @@
+{
+  "name": "boldtonic",
+  "owner": {
+    "name": "boldtonic",
+    "url": "https://github.com/boldtonic"
+  },
+  "metadata": {
+    "description": "Plugins by boldtonic. Jumpstart builds your product on the right open-source foundations."
+  },
+  "plugins": [
+    {
+      "name": "jumpstart",
+      "source": "./plugins/jumpstart",
+      "description": "Build your product with the right open-source foundations."
+    }
+  ]
+}

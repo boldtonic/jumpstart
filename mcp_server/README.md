@@ -8,7 +8,7 @@ Use the native Agent Skill when your coding agent supports it. MCP is an additio
 
 Requirements: Python 3.10+, GitHub CLI installed and authenticated, network access for GitHub research. Instructions can be read without GitHub access. The SDK dependency is pinned to `mcp==2.2.0`.
 
-From the root of the Jumpstart repository (or the extracted MCP ZIP):
+From the root of a clone or source download of the Jumpstart repository:
 
 ```sh
 python3.11 -m venv .venv-mcp
@@ -16,7 +16,7 @@ python3.11 -m venv .venv-mcp
 gh auth status
 ```
 
-Use an installed Python 3.10+ executable in place of `python3.11` when appropriate. Keep the `skills/jumpstart` directory next to `mcp_server`; the server resolves its shared files relative to its own location, independent of the client's working directory.
+Use an installed Python 3.10+ executable in place of `python3.11` when appropriate. Keep the `plugins/jumpstart` directory next to `mcp_server`; the server resolves its shared files relative to its own location, independent of the client's working directory.
 
 ## Connect a local client
 

@@ -25,4 +25,4 @@ jobs:
         working-directory: examples/markdown_preview
         run: python -m unittest -v test_preview.py
       - name: Validate example provenance
-        run: python skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
+        run: python plugins/jumpstart/skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict

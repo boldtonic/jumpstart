@@ -26,8 +26,8 @@ From the repository root:
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 skills/jumpstart/scripts/github_research.py summarize evals/evidence/markdown-search.json --limit 5
-python3 skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
+python3 plugins/jumpstart/skills/jumpstart/scripts/github_research.py summarize evals/evidence/markdown-search.json --limit 5
+python3 plugins/jumpstart/skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
 ```
 
 Follow the [example setup](../examples/markdown_preview/README.md) to run the seven integration tests in a separate environment. The skill helpers themselves need no demo dependencies.

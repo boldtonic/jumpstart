@@ -1,0 +1,20 @@
+{
+  "name": "jumpstart",
+  "version": "1.0.0",
+  "description": "Build your product with the right open-source foundations: find and vet open-source repos, get a short menu of what to reuse, then integrate, test and credit the pieces you choose.",
+  "author": {
+    "name": "boldtonic",
+    "url": "https://github.com/boldtonic"
+  },
+  "homepage": "https://github.com/boldtonic/jumpstart",
+  "repository": "https://github.com/boldtonic/jumpstart",
+  "license": "MIT",
+  "keywords": [
+    "open-source",
+    "architecture",
+    "research",
+    "github",
+    "integration",
+    "licensing"
+  ]
+}

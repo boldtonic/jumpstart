@@ -14,7 +14,7 @@ from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / "skills" / "jumpstart"
+SKILL = ROOT / "plugins" / "jumpstart" / "skills" / "jumpstart"
 spec = importlib.util.spec_from_file_location("jumpstart_research", SKILL / "scripts" / "github_research.py")
 research = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(research)
