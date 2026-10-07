@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Jumpstart icon. Glyph: "arrow-up-right-dots" from Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com - Copyright 2024 Fonticons, Inc. Licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ Changes: recolored and placed on a dark square. -->
   <rect width="1024" height="1024" fill="#1f1e1d"/>
-  <g fill="none" stroke="#f2f0e8" stroke-width="40" stroke-linejoin="round" stroke-linecap="round">
-    <polygon points="512,212 771.8,362 771.8,662 512,812 252.2,662 252.2,362"/>
-    <path d="M512 512V812M512 512L252.2 362M512 512L771.8 362"/>
-  </g>
+  <svg x="232" y="232" width="560" height="560" viewBox="0 0 576 512" fill="#f2f0e8"><path d="M160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l50.7 0L9.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L256 109.3l0 50.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L160 0zM576 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM448 208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM400 384a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm128 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM272 384a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM144 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM576 336a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-48-80a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/></svg>
 </svg>

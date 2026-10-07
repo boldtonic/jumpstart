@@ -22,3 +22,5 @@ The helpers need Python 3.9+ and an authenticated `gh`. Without them, Claude can
 ## Source and license
 
 MIT. Source, demo videos and an optional MCP server: [github.com/boldtonic/jumpstart](https://github.com/boldtonic/jumpstart).
+
+Icon: “arrow-up-right-dots” from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), recolored on a dark square.

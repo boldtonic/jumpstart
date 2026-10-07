@@ -11,4 +11,6 @@ Each snapshot records the exact source revision. The demo installs published pac
 
 See [DESIGN_SOURCES.md](DESIGN_SOURCES.md) for conceptual influences on the skill.
 
-The optional MCP server installs the official [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk), `mcp==2.2.0` (MIT), and its dependencies. Their code is not bundled in the source ZIP; installed distributions retain their own licensing and notices. The Agent Skill works independently of that SDK. The external Skills CLI is an optional installer and is not bundled.
+The optional MCP server installs the official [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk), `mcp==2.2.0` (MIT), and its dependencies. Their code is not bundled in this repository; installed distributions retain their own licensing and notices. The Agent Skill works independently of that SDK. The external Skills CLI is an optional installer and is not bundled.
+
+The plugin icon (`plugins/jumpstart/.claude-plugin/icon.png`, source `assets/jumpstart-icon.svg`) uses “arrow-up-right-dots” from [Font Awesome Free](https://fontawesome.com) 6.7.2, Copyright 2024 Fonticons, Inc., licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). It is recolored and placed on a dark square.
