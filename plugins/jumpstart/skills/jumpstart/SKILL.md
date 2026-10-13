@@ -1,6 +1,6 @@
 ---
 name: jumpstart
-description: Jump-start a new or existing product with open source. Read project context, discover and vet repositories, propose a CTO-style menu of components and combinations, then selectively simplify, integrate, test, and credit the chosen pieces. Use when the user wants open-source foundations, reusable implementations, or alternatives to building a substantial feature from scratch.
+description: Find, compare and vet open-source projects to build on, by reading their actual code, tests and licenses at pinned commits instead of answering from memory. Use it whenever someone is choosing between open-source libraries, frameworks, engines or repositories for a product or feature (X vs Y vs Z, which should we adopt or build on), asks whether something open source already does what they are about to build, wants a GitHub project to fork or start from, or wants alternatives to writing a substantial component from scratch, even if they never mention Jumpstart. Returns a short, evidence-backed menu with what each option contributes, what to keep, cut and write, licenses and maintenance, and one recommendation; once a route is chosen, it integrates, tests and credits the pieces. Not for explaining how a library works, upgrading or debugging dependencies already in use, or choosing a license for your own project.
 ---
 
 # Jumpstart

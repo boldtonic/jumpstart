@@ -1,0 +1,22 @@
+[
+  {"query": "Thinking that we may need RL post-training for a 7B model on 8 GPUs. Compare MILES, the Tinker cookbook and a Megatron-based setup.", "should_trigger": true},
+  {"query": "we're about to build a local-first app that records and transcribes customer interviews with speaker labels. before i write anything, is there open source stuff we could build on? don't want to reinvent diarization", "should_trigger": true},
+  {"query": "I need to add a rich-text editor with collaborative editing to our Next.js app (comments, mentions, presence). Should we use Tiptap, Lexical or BlockNote? Look at how each handles Yjs and what the licenses allow for a commercial SaaS.", "should_trigger": true},
+  {"query": "Our Flask app needs OCR for scanned invoices in Spanish and English. Which open-source OCR and layout libraries are actually good right now and which would you build on? We can't send documents to a cloud API.", "should_trigger": true},
+  {"query": "ok so i'm building a little desktop app to organize my photo library: face grouping, duplicates, map view. is there an existing open source app i could fork instead of starting from zero? electron or tauri, either is fine", "should_trigger": true},
+  {"query": "We want vector search inside Postgres for about 20M rows. pgvector vs pgvecto.rs vs VectorChord: which one should we adopt for production, and how painful is it to migrate later?", "should_trigger": true},
+  {"query": "Before I write my own job queue for this Go service (retries, cron, dead letters), check what mature open-source options exist and whether any of them fits without bringing Redis in.", "should_trigger": true},
+  {"query": "Find me a good starting point on GitHub for a self-hosted booking and scheduling product like Calendly. I want to customize the UI and keep my own billing logic.", "should_trigger": true},
+  {"query": "Is there an open-source implementation of CRDT-based offline sync for React Native that we could reuse? Our app keeps losing edits when users go offline and I'd rather not build the sync engine myself.", "should_trigger": true},
+  {"query": "We're picking an LLM serving stack for internal tools: SGLang, vLLM or TensorRT-LLM. 2x H100, mostly Llama and Qwen models, we need structured outputs. Recommend one and tell me how we'd integrate it with our FastAPI gateway.", "should_trigger": true},
+  {"query": "Can you explain how SGLang's RadixAttention works? I just want to understand the idea for a talk, not use it.", "should_trigger": false},
+  {"query": "Bump our Next.js app from 14 to 15 and fix whatever breaks in the build. The repo is in this folder.", "should_trigger": false},
+  {"query": "pip install fails with 'No matching distribution found for torch==2.3.0' on my M2 mac with python 3.13, what do i do", "should_trigger": false},
+  {"query": "Write a README for my open-source CLI tool in this repo, with install instructions, a usage GIF placeholder and badges.", "should_trigger": false},
+  {"query": "Review this branch: it replaces our hand-written retry logic with tenacity. Anything risky in how the backoff is configured?", "should_trigger": false},
+  {"query": "What license should I pick for my own open-source library if I want companies to use it but contribute their changes back?", "should_trigger": false},
+  {"query": "Implement a binary search tree with delete in TypeScript for my interview prep. Write it from scratch, no libraries.", "should_trigger": false},
+  {"query": "Our Postgres queries got slow after the last deploy. Here's the EXPLAIN ANALYZE output from the orders query; why is it doing a seq scan on orders.customer_id?", "should_trigger": false},
+  {"query": "Convert src/components/Dashboard.jsx from a React class component to hooks and keep the behavior identical.", "should_trigger": false},
+  {"query": "Summarize the differences between MIT and Apache 2.0 in a short table for our team wiki page on licensing.", "should_trigger": false}
+]

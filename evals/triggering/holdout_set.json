@@ -1,0 +1,12 @@
+[
+  {"query": "I'm adding SSO (SAML and OIDC) to our B2B SaaS. Is there an open-source auth server we could self-host and build on instead of writing it? Keycloak, Zitadel, Authentik? We run on Kubernetes.", "should_trigger": true},
+  {"query": "need to generate PDF invoices from HTML templates in our node backend, what open source options are solid and maintained? puppeteer feels heavy for this", "should_trigger": true},
+  {"query": "We're building an internal BI tool. Before we write dashboards from scratch, look at whether Metabase, Superset or Evidence could be embedded or forked for our use case.", "should_trigger": true},
+  {"query": "Our Unity prototype needs procedural terrain and a simple ECS. Any open-source packages worth building on? Check the licenses, we plan to sell the game.", "should_trigger": true},
+  {"query": "For a side project I want full-text search with typo tolerance over 500k product rows. Meilisearch, Typesense or just Postgres FTS? Pick one and tell me how to wire it in.", "should_trigger": true},
+  {"query": "Thinking of building a voice agent that answers calls for a dental clinic. What open-source pieces exist for telephony plus streaming speech-to-text and text-to-speech that we could combine?", "should_trigger": true},
+  {"query": "How does Meilisearch rank results? Explain its ranking rules briefly.", "should_trigger": false},
+  {"query": "Our Keycloak login page throws 'Invalid redirect uri' since we changed domains. Here's the client config, what's wrong?", "should_trigger": false},
+  {"query": "Add a /health endpoint to our FastAPI app that checks the database connection and returns 503 when it's down.", "should_trigger": false},
+  {"query": "Write a short LinkedIn post announcing that we open-sourced our design system last week.", "should_trigger": false}
+]
