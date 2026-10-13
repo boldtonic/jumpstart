@@ -4,6 +4,14 @@ Build your product with the right open-source foundations.
 
 Tell Claude what you're building, or say you'd like to start from solid open-source foundations. Jumpstart reads your context, looks for open-source projects that already solve the hard parts, reads their actual code at pinned commits, and comes back with a short menu: two or three routes, what each repository contributes, what you keep, cut and still have to write, and the licenses involved. Nothing is installed until you choose. Pick a route and Claude integrates it, tests the connections, and records credits and provenance.
 
+## Install
+
+In Claude Code:
+
+```text
+/plugin install jumpstart --marketplace boldtonic/jumpstart
+```
+
 ## Use it
 
 - `/jumpstart I'm building a local-first app for audio interviews. What already exists?`

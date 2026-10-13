@@ -55,7 +55,7 @@ The installer asks which agents to install for and needs Node.js 22.20+. No Node
 
 | Where | Install | Use |
 |---|---|---|
-| Claude Code | `npx skills add`, or as a plugin: `/plugin marketplace add boldtonic/jumpstart` then `/plugin install jumpstart@boldtonic` | `/jumpstart` followed by your request |
+| Claude Code | `npx skills add`, or as a plugin in one step: `/plugin install jumpstart --marketplace boldtonic/jumpstart` | `/jumpstart` followed by your request |
 | Codex | `npx skills add`, or `$skill-installer install https://github.com/boldtonic/jumpstart/tree/main/plugins/jumpstart/skills/jumpstart` | `$jumpstart` followed by your request |
 | Claude apps | Upload [the skill ZIP](dist/jumpstart-skill.zip) as a custom skill in settings; research uses web search where `gh` isn't available | Ask for Jumpstart, or let Claude pick it |
 | Other Agent Skills clients | `npx skills add` also covers Cursor, GitHub Copilot, Cline and more | The client's own skill invocation |
@@ -99,6 +99,6 @@ The [included Markdown previewer](examples/markdown_preview/README.md) combines 
 
 [Development guide](docs/DEVELOPMENT.md) · [Validation results](evals/RESULTS.md) · [Behavioral cases](evals/CASES.md) · [Design sources](DESIGN_SOURCES.md)
 
-Original code is [MIT-licensed](LICENSE). Reused material keeps its [upstream notices](THIRD_PARTY_NOTICES.md). Jumpstart records attribution as part of integration, not as an afterthought.
+Original code is [MIT-licensed](LICENSE). Jumpstart collects nothing; see [PRIVACY.md](PRIVACY.md). Reused material keeps its [upstream notices](THIRD_PARTY_NOTICES.md). Jumpstart records attribution as part of integration, not as an afterthought.
 
 Built by [@boldtonic](https://github.com/boldtonic). If Jumpstart helps you build something, share it, and consider leaving a star.

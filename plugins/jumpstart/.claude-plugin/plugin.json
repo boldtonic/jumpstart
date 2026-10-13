@@ -16,5 +16,8 @@
     "github",
     "integration",
     "licensing"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/boldtonic/jumpstart/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/boldtonic/jumpstart/issues",
+  "documentationUrl": "https://github.com/boldtonic/jumpstart#readme"
 }
