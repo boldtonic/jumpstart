@@ -15,7 +15,7 @@ from mcp.types import ToolAnnotations
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "plugins" / "jumpstart" / "skills" / "jumpstart"
-spec = importlib.util.spec_from_file_location("jumpstart_research", SKILL / "scripts" / "github_research.py")
+spec = importlib.util.spec_from_file_location("jumpstart_research", ROOT / "tools" / "github_research.py")
 research = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(research)
 GUIDES = {"start": SKILL / "SKILL.md", **{name: SKILL / "references" / (name + ".md")

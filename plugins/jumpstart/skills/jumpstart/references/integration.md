@@ -32,20 +32,20 @@ For dependencies also record `package` and `version`, and point `target_paths` a
 
 For `copied`/`adapted`, preserve applicable license and notice texts in local files. A `reference` entry credits influence without claiming copied code, and may have no local target. Classify honest reuse; changing names does not turn copied code into mere inspiration.
 
-During work, validate while allowing unresolved licensing:
+During work, check the manifest while allowing unresolved licensing. Before delivery, apply the stricter readiness checks. Check by hand, or run the optional validator `tools/provenance.py` from the Jumpstart repository if it is available (`validate` and `--strict`, then `render` for the report).
 
-```sh
-python3 scripts/provenance.py validate path/to/provenance.json --root path/to/project
-```
+Structure checks, always:
 
-Before delivery, request strict readiness checks and generate a credits report:
+- Valid JSON with `schema_version` 1, a nonempty `project`, and a `components` array with unique names.
+- Every required field is present and nonempty; `repository` is a canonical `https://github.com/owner/repo` URL; `revision` is a full 40-character commit SHA; `mode` is one of the four values.
+- `source_paths` is never empty; every `target_paths` entry exists inside the project (`reference` may have none); dependencies also carry `package` and `version`.
+- `license.status` is `verified` or `unresolved`; `expression` is nonempty; a `verified` license has an observed expression other than `unknown` and HTTPS `evidence_urls`; every `preserved_files` entry exists and is not empty.
 
-```sh
-python3 scripts/provenance.py validate path/to/provenance.json --root path/to/project --strict
-python3 scripts/provenance.py render path/to/provenance.json --root path/to/project --out path/to/OPEN_SOURCE_CREDITS.md
-```
+Strict readiness before delivery: no component is `unresolved`, and every `copied` or `adapted` component has at least one preserved license or notice file.
 
-The helper validates recorded facts' structure and file existence, not their truth or legal compatibility. You must verify source and applicable obligations. The credits report supplements original license/NOTICE files; it is not a replacement. If compatibility is unresolved, report the concrete issue and do not call the integration distribution-ready.
+Then write the credits report, `OPEN_SOURCE_CREDITS.md`: one section per component with the repository linked at the pinned revision, the use (`mode`) and role, the upstream paths, the local targets, the modifications, the update strategy, the license, and the preserved notice files.
+
+These checks cover recorded structure and file existence, not truth or legal compatibility. You must verify source and applicable obligations. The credits report supplements original license/NOTICE files; it is not a replacement. If compatibility is unresolved, report the concrete issue and do not call the integration distribution-ready.
 
 ## Delivery
 

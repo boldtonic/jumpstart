@@ -73,7 +73,7 @@ Open a new session if your agent doesn't list it yet. The [compatibility record]
 4. **Hands you a menu** with one recommendation, and stops there until you choose.
 5. **Integrates** the route you pick: smallest working slice first, tests on the connections, provenance and credits recorded.
 
-Your agent supplies the model, the context and the coding tools. The research helper uses GitHub CLI (`gh`) and Python 3.9+; the MCP server needs Python 3.10+. Neither calls another model API or runs downloaded code. The MCP server runs locally (stdio or loopback HTTP); web-only clients would need a hosted deployment, which this project doesn't provide.
+Your agent supplies the model, the context and the coding tools. The skill is plain text: your agent runs GitHub CLI (`gh`) commands for the research; the optional MCP server needs Python 3.10+ and does the same through tools, and `tools/` holds two optional Python helpers. Nothing calls another model API or runs downloaded code. The MCP server runs locally (stdio or loopback HTTP); web-only clients would need a hosted deployment, which this project doesn't provide.
 
 ---
 

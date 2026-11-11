@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-SCRIPTS = Path(__file__).resolve().parents[1] / "plugins" / "jumpstart" / "skills" / "jumpstart" / "scripts"
+SCRIPTS = Path(__file__).resolve().parents[1] / "tools"
 
 
 def load(name):

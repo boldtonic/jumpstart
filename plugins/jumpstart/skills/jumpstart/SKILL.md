@@ -33,7 +33,7 @@ An invocation does not authorize publishing, messaging maintainers, or replacing
 
 ## Discover and inspect
 
-Read [references/research.md](references/research.md). Prefer the installed GitHub CLI for focused public repository searches and source inspection. The bundled [scripts/github_research.py](scripts/github_research.py) captures bounded searches, deduplication, and commit-pinned source snapshots using `gh`; it requires Python 3.9+ and no third-party Python packages. Direct `gh` commands or available connectors are valid alternatives.
+Read [references/research.md](references/research.md). Use the installed GitHub CLI (`gh`) for focused public repository searches and commit-pinned source inspection; the exact commands are listed there. Where shell or network access is limited, the companion MCP server's `jumpstart_search`, `jumpstart_inspect` and `jumpstart_evidence` tools do the same. Other available connectors are valid alternatives.
 
 Use public technical terms in searches, not confidential project descriptions or proprietary code. Start with a few complementary queries, inspect results, then refine. Avoid star minimums unless justified. Keep an explicit research budget and expand only when the current evidence cannot support the decision. Do not mistake a failed search for an empty ecosystem.
 
@@ -55,6 +55,6 @@ Read [references/integration.md](references/integration.md) before implementing.
 
 Prove the highest-risk connection with the smallest runnable vertical slice first. Extract or adapt selected pieces; remove unnecessary layers only after checking dependencies and behavior. Own the interfaces connecting repositories and test those interfaces plus the user-visible acceptance criteria. Iterate on actual failures rather than claiming success from installation alone.
 
-Use [scripts/provenance.py](scripts/provenance.py) to validate a provenance manifest and render a credits report when useful. It checks structure and local files; it does not certify license compatibility or replace required license/NOTICE texts. Keep the original upstream notices and any transitive attributions applicable to reused material.
+Record provenance and write the credits report as described in [references/integration.md](references/integration.md), and check them against the checklist there before delivery. The checklist covers structure and local files; it does not certify license compatibility or replace required license/NOTICE texts. Keep the original upstream notices and any transitive attributions applicable to reused material.
 
 Finish with what now works, what each source contributed, what was removed or changed, tests actually run, material limitations, and how to maintain/update the selected pieces. Save evidence and decisions in a project-scoped location such as `docs/jumpstart/`; never commit credentials, irrelevant source dumps, or local machine paths.

@@ -14,7 +14,7 @@ npx skills add boldtonic/jumpstart --agent codex claude-code cursor --global
 
 Incluye solo los agentes que uses. El [instalador Skills](https://github.com/vercel-labs/skills) coloca la skill donde cada uno la reconoce. `--global` la hace disponible en todos tus proyectos; sin esa opción se instala en el proyecto desde el que ejecutas el comando. También puedes copiar la carpeta completa `plugins/jumpstart/skills/jumpstart` al directorio de skills de tu agente, sin usar Node.js.
 
-Por ejemplo, Claude Code reconoce la instalación personal en `~/.claude/skills/jumpstart`. El ZIP `dist/jumpstart-skill.zip` contiene esa carpeta, con sus referencias y herramientas.
+Por ejemplo, Claude Code reconoce la instalación personal en `~/.claude/skills/jumpstart`. El ZIP `dist/jumpstart-skill.zip` contiene esa carpeta, con sus referencias. La skill es solo texto: tu agente ejecuta los comandos `gh` de la investigación. En la carpeta `tools/` hay dos ayudantes opcionales en Python.
 
 ## Uso normal
 

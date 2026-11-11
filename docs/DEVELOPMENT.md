@@ -1,12 +1,12 @@
 # Development
 
-The shared workflow lives in `plugins/jumpstart/skills/jumpstart`; the MCP server reads those files directly. Update installed copies after changing the source skill. No demo dependencies are needed to run the skill helpers.
+The shared workflow lives in `plugins/jumpstart/skills/jumpstart`; the MCP server reads those files directly. That folder holds only Markdown, YAML and a license: the Anthropic plugin directory accepts no scripts from unverified publishers, so the Python helpers live in `tools/` (the MCP server and the tests use them). Do not add scripts or other executable files under `plugins/`. Update installed copies after changing the source skill. No demo dependencies are needed to run the skill helpers.
 
 ## Checks
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 plugins/jumpstart/skills/jumpstart/scripts/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
+python3 tools/provenance.py validate examples/markdown_preview/provenance.json --root examples/markdown_preview --strict
 ```
 
 Follow the [MCP setup](../mcp_server/README.md) and [example setup](../examples/markdown_preview/README.md) for their respective tests. GitHub Actions runs all 40 tests and the provenance check.
@@ -14,7 +14,7 @@ Follow the [MCP setup](../mcp_server/README.md) and [example setup](../examples/
 ## Research helpers
 
 ```sh
-python3 plugins/jumpstart/skills/jumpstart/scripts/github_research.py search \
+python3 tools/github_research.py search \
   --query 'epub parser in:name,description' --limit 10 --out /tmp/epub-search.json
 ```
 

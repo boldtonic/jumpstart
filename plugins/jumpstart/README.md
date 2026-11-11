@@ -20,12 +20,12 @@ In Claude Code:
 
 ## What it runs, sends and fetches
 
-- **GitHub search and source reads.** The bundled Python helper `skills/jumpstart/scripts/github_research.py` runs the GitHub CLI (`gh`) to search public repositories and read public files at pinned commits. Search queries and repository names go to GitHub's API under your own `gh` login. Queries use public technical terms, never your private code.
+- **GitHub search and source reads.** Claude runs the GitHub CLI (`gh`) to search public repositories and read public files at pinned commits. Jumpstart is plain text instructions; it bundles no scripts. Search queries and repository names go to GitHub's API under your own `gh` login. Queries use public technical terms, never your private code.
 - **Fallback.** Where `gh` or its network isn't available, Claude may use its own web search instead, and the menu says so.
-- **Local files only.** Research evidence and decision records are saved in your project. The provenance helper `skills/jumpstart/scripts/provenance.py` only reads and writes local files.
+- **Local files only.** Research evidence, decision records and credits are saved in your project.
 - **Nothing else.** No other servers, no analytics and no model API calls. Downloaded repository content is read as text and never executed.
 
-The helpers need Python 3.9+ and an authenticated `gh`. Without them, Claude can still research through web search, with less depth.
+Research needs an authenticated `gh`. Without it, Claude can still research through web search, with less depth.
 
 ## Source and license
 
